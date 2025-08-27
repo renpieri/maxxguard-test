@@ -246,11 +246,11 @@
     }
 }
 
-@media screen and (max-width:640px){
+/* @media screen and (max-width:640px){
     .swiper-wrapper { 
         height: 100vh;
     }
     .img-slider {
         height: 100vh;
     }
-}
+} */
