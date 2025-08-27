@@ -1,5 +1,5 @@
 
-import '../css/Contacto.css'
+import '../src/css/Contacto.css'
 
 function Contacto() {
 

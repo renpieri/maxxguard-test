@@ -1,4 +1,4 @@
-import '../css/QuienesSomos.css'
+import '../src/css/QuienesSomos.css'
 import { MdWorkspacePremium } from "react-icons/md";
 import { AiOutlineBarChart } from "react-icons/ai";
 import { RiCustomerService2Fill } from "react-icons/ri";
