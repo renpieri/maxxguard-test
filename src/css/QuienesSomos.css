@@ -52,3 +52,9 @@
         padding: 0 1em !important;
     }
 }
+
+    @media screen and (max-width:640px){
+        .img-quienes-somos {
+            max-width: 360px;
+        }
+    }
