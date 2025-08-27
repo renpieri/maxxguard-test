@@ -156,6 +156,7 @@
     .swiper {
         padding-top: 50px !important;
     }
+
     .menu-img-burger {
         display: flex;
         width: 100%;
@@ -242,5 +243,14 @@
         position: fixed;
         background: #000201ec;
         padding: 0 !important;
+    }
+}
+
+@media screen and (max-width:640px){
+    .swiper-wrapper { 
+        height: 100vh;
+    }
+    .img-slider {
+        height: 100vh;
     }
 }
