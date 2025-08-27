@@ -1,4 +1,4 @@
-import '/public/css/Productos.css'
+import '../css/Productos.css'
 
     
     const ListaShow = () => {
