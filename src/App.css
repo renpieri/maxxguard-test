@@ -179,9 +179,8 @@
         height: 50px;
     }
     .menu-ul {
-       
-        padding: 0;
-        margin: 0;
+        padding: 0 !important;
+        margin: 0 !important;
     }
     .menu-li {
         display: flex;
@@ -210,9 +209,9 @@
     .menu-ul {
         position: relative;
         width: 100vw;
-        padding: 0;
+        padding: 0 !important;
         left: -8px;
-        padding-bottom: 1em;
+        padding-bottom: 1em !important;
     }
     .menu-li {
         border-bottom: 1px solid #bfa654;
