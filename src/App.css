@@ -245,6 +245,6 @@
     .menu-principal-div {
         position: fixed;
         background: #000201ec;
-        padding: 0;
+        padding: 0 !important;
     }
 }
