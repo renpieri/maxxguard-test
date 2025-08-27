@@ -142,7 +142,7 @@
     align-items: center;
     padding: .5em;
     position: relative !important;
-    top: -30px !important;
+    top: -40px !important;
 }
 .mobile-header-mail-tel-inst {
     display: none;
@@ -202,9 +202,6 @@
     }
     .menu-dropdown {
         top: 45px !important;
-    }
-    .swiper-pagination {
-        display: none;
     }
     .menu-ul {
         position: relative;
