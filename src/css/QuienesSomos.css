@@ -27,31 +27,31 @@
 }
 
 
-@media screen and (max-width:1023px){ 
-    .section-quienesomos {
-        margin-top: 30px;
+    @media screen and (max-width:1023px){ 
+        .section-quienesomos {
+            margin-top: 30px;
+        }
+        .img-1 {
+            padding: 1 !important;
+        }
+        .flex-icon-title {
+            display: flex;
+            align-items: center;
+            gap: .5em;
+        }
+        .div-logo-item {
+            position: unset !important;
+        }
+        .flex-icon-title p {
+            margin: 0 !important;
+        }
+        .item-text {
+            margin-left: 0 !important;
+        }
+        .container-text-item {
+            padding: 0 1em !important;
+        }
     }
-    .img-1 {
-        padding: 1 !important;
-    }
-    .flex-icon-title {
-        display: flex;
-        align-items: center;
-        gap: .5em;
-    }
-    .div-logo-item {
-        position: unset !important;
-    }
-    .flex-icon-title p {
-        margin: 0 !important;
-    }
-    .item-text {
-        margin-left: 0 !important;
-    }
-    .container-text-item {
-        padding: 0 1em !important;
-    }
-}
 
     @media screen and (max-width:640px){
         .img-quienes-somos {
