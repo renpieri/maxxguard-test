@@ -63,7 +63,10 @@
         .quienes-somos-principal-text  {
             padding: 0 1em !important;
         }
-        .quienes-somos-principal-text p, .flex-icon-title dd {
+        .quienes-somos-principal-text p, .flex-icon-title dd, .item-text {
             font-size: 13px;
+        }
+        .cards-info {
+            padding-top: 0 !important;
         }
     }

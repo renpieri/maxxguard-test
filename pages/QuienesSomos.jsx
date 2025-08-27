@@ -22,7 +22,7 @@ function QuienesSomos(){
                     </div>
                 </div>
 
-                <div className="py-6 bg-white">
+                <div className="py-6 bg-white cards-info">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="mt-10">
                         <dl className="container-text-item space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
