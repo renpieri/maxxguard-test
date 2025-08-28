@@ -85,12 +85,18 @@
         text-align: center;
     }
     .icon-contacto {
-        width: 40px !important;
-        height: 40px !important;
+        width: 35px !important;
+        height: 35px !important;
+        margin-right: 0;
+    }
+
+    .icon-contacto svg {
+        width: 35px !important;
+        height: 35px !important;
         margin-right: 0;
     }
      .icon-info-title {
-        font-size: 19px;
+        font-size: 17px;
         margin: 0;
     }
     .icon-info-text {
