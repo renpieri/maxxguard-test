@@ -71,6 +71,7 @@
     }
 }
 
+
 @media screen and (max-width: 640px) {
     .section-contacto  hr {
         margin-top: 1em;
@@ -123,5 +124,4 @@
     .contacto-info p {
         margin: 1.5em auto;
     }
-    
 }
