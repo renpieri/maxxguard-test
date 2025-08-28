@@ -18,7 +18,7 @@ function QuienesSomos(){
                         <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">Contamos con una capacidad de respuesta inmediata y realizamos envíos a todo el país, garantizando eficiencia, compromiso y confianza en cada entrega.</p>
                             </div>
                         </div>
-                        <img className="lg:mx-0 mx-auto h-full rounded-3xl object-cover img-quienes-somos" src="/img/IMG_2683.jpg" alt="about Us image" />
+                        <img className="lg:mx-0 mx-auto h-full rounded-3xl object-cover img-quienes-somos" src="img/IMG_2683.jpg" alt="about Us image" />
                     </div>
                 </div>
 

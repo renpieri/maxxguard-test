@@ -46,7 +46,7 @@ function App() {
             <div className='menu-principal'> 
             <div className='menu-principal-div flex items-center justify-between xl:max-w-10xl xl:mx-auto max-w-full lg:p-5 flex-wrap w-full back p-5'> 
               <div className='menu-img-burger'>
-                <a href="/"><img className='logo-header' src="/public/img/LOGO.png" alt='Logo maxxguard'/></a> 
+                <a href="/"><img className='logo-header' src="img/LOGO.png" alt='Logo maxxguard'/></a> 
                 <FiMenu className='lg:hidden block h-8 w-8 cursor-pointer text-white' onClick={() => setOpen(!open)} /> 
               </div>
               <nav className={`nav-principal ${open ? 'block' : 'hidden'} lg:flex lg:justify-between items-center lg:w-auto w-full lg:bg-transparent`}>
@@ -83,7 +83,7 @@ function App() {
           <div className='menu-principal'>
             <div className='menu-principal-div flex items-center justify-between xl:max-w-10xl xl:mx-auto max-w-full lg:p-5 flex-wrap w-full back p-5'>
         
-                <a href="/"><img className='logo-header' src="/public/img/LOGO.png" alt='Logo maxxguard'/></a>
+                <a href="/"><img className='logo-header' src="img/LOGO.png" alt='Logo maxxguard'/></a>
                 <FiMenu className='menu-hamburguesa lg:hidden block h-8 w-8 cursor-pointer text-white' onClick={() => setOpen(!open)} />
        
               <nav className={`nav-principal ${open ? 'block' : 'hidden'} lg:flex lg:justify-between items-center lg:w-auto w-full lg:bg-transparent`}>
@@ -137,16 +137,16 @@ function App() {
 
              <SwiperSlide>
                 <picture>
-                  <source media="(max-width: 639px)" srcSet="/public/img/banner-1-mobile.png" />
-                  <source media="(max-width: 1023px) and (min-width: 640px)" srcSet="/public/img/banner-1-tablet.png" />
-                  <img className="img-slider" src="/public/img/banner-1-pc.png" alt="Banner" />
+                  <source media="(max-width: 639px)" srcSet="img/banner-1-mobile.png" />
+                  <source media="(max-width: 1023px) and (min-width: 640px)" srcSet="img/banner-1-tablet.png" />
+                  <img className="img-slider" src="img/banner-1-pc.png" alt="Banner" />
                 </picture>
               </SwiperSlide>
               <SwiperSlide>
               <picture>
-                  <source media="(max-width: 639px)" srcSet="/public/img/banner-2-mobile.png" />
-                  <source media="(max-width: 1023px) and (min-width: 640px)" srcSet="/public/img/banner-2-tablet.png" />
-                  <img className="img-slider" src="/public/img/banner-2-pc.png" alt="Banner" />
+                  <source media="(max-width: 639px)" srcSet="img/banner-2-mobile.png" />
+                  <source media="(max-width: 1023px) and (min-width: 640px)" srcSet="img/banner-2-tablet.png" />
+                  <img className="img-slider" src="img/banner-2-pc.png" alt="Banner" />
                 </picture>
               </SwiperSlide>
           </Swiper>
