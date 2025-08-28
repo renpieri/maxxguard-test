@@ -126,6 +126,7 @@
         }
         .img-quienes-somos {
             max-width: 360px !important;
+            max-height: 337px !important;
         }
         .quienes-somos-principal-text-container {
             max-width: 360px;
