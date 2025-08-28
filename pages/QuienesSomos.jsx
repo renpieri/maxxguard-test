@@ -36,7 +36,7 @@ function QuienesSomos(){
                                     </div>
                                     <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Servicio</p>
                                 </dt>
-                                <dd className="item-text mt-2 ml-16 text-base text-gray-500"> Tenemos varios modelos fabricados con materiales de primera calidad y distribución en todo el país.
+                                <dd className="item-text mt-2 ml-16 text-gray-500"> Tenemos varios modelos fabricados con materiales de primera calidad y distribución en todo el país.
 
 Respaldamos nuestro crecimiento con una sólida inversión en recursos humanos y tecnológicos, orientada a mejorar de manera constante la calidad, la seguridad y la variedad de nuestros productos.
                                 </dd>
@@ -49,7 +49,7 @@ Respaldamos nuestro crecimiento con una sólida inversión en recursos humanos y
                                     </div>
                                     <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Calidad</p>
                                 </dt>
-                                <dd className="item-text mt-2 ml-16 text-base text-gray-500"> La calidad es un objetivo esencial en cada uno de nuestros productos.
+                                <dd className="item-text mt-2 ml-16 text-gray-500"> La calidad es un objetivo esencial en cada uno de nuestros productos.
 Prestamos especial atención a cada detalle de terminación, tanto en el interior como en el exterior, garantizando un resultado final que combina seguridad, precisión y excelencia.
                                 </dd>
                             </div>
@@ -62,7 +62,7 @@ Prestamos especial atención a cada detalle de terminación, tanto en el interio
                                     <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Atención
                                     </p>
                                 </dt>
-                                <dd className="item-text mt-2 ml-16 text-base text-gray-500"> Ofrecemos una atención personalizada, orientada a potenciar al máximo nuestros diseños y garantizar al cliente la mejor experiencia y servicio en cada etapa.
+                                <dd className="item-text mt-2 ml-16 text-gray-500"> Ofrecemos una atención personalizada, orientada a potenciar al máximo nuestros diseños y garantizar al cliente la mejor experiencia y servicio en cada etapa.
                                 </dd>
                             </div>
                         </dl>
@@ -80,7 +80,7 @@ Prestamos especial atención a cada detalle de terminación, tanto en el interio
           Servicio
         </p>
       </dt>
-      <dd className="item-text mt-2 ml-16 text-base text-gray-500">
+      <dd className="item-text mt-2 ml-16 text-gray-500">
         Nuestros productos son fabricados con materiales de primera calidad y
         con distribución a todo el país. Contamos con una fuerte inversión en rrhh y tecnología, con el fin de crecer, mejorar la calidad, la seguridad y variedad de nuestros productos.
       </dd>
@@ -95,7 +95,7 @@ Prestamos especial atención a cada detalle de terminación, tanto en el interio
           Calidad
         </p>
       </dt>
-      <dd className="item-text mt-2 ml-16 text-base text-gray-500">
+      <dd className="item-text mt-2 ml-16 text-gray-500">
         La calidad es un objetivo esencial en cada uno de nuestros productos.
         Prestamos atención a cada detalle y necesidad, tanto en interior como exterior, garantizando un resultado final que
         combina estetica, seguridad y precisión.
@@ -111,7 +111,7 @@ Prestamos especial atención a cada detalle de terminación, tanto en el interio
           Atención
         </p>
       </dt>
-      <dd className="item-text mt-2 ml-16 text-base text-gray-500">
+      <dd className="item-text mt-2 ml-16 text-gray-500">
         En MAXXGUARD ofrecemos una atención personalizada e inmediata. Para nosotros es fundamental garantizar a cada cliente la mejor experiencia, brindando un servicio confiable, seguro y de calidad en cada etapa.
       </dd>
     </div>
