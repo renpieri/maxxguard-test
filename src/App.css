@@ -24,6 +24,7 @@
 .top-header-img-tel-a {
     display: flex;
     align-items: center;
+    color: #F4E3B3;
 }
 
 .top-header-a {
@@ -40,11 +41,13 @@
     color: white;
     height: 23px;
     width: 27px;
+    color: #F4E3B3;
 }
 .inst-img {
     color: white;
     height: 22px;
     width: 27px;
+    color: #F4E3B3;
 }
 .top-header-img-mail {
     display: flex;

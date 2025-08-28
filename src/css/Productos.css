@@ -6,7 +6,7 @@
     color: rgb(55 65 81 / var(--tw-text-opacity, 1));
 }
 
-.product-title {
+.section-title {
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -18,7 +18,7 @@
   position: relative; 
 }
 
-.product-title::before {
+.section-title::before {
   content: "";
   position: absolute;
   right: 0;
@@ -48,7 +48,7 @@
 }
 
 @media screen and (max-width:640px){
-        .product-title {
+        .section-title {
             font: 23px;
         }
   }

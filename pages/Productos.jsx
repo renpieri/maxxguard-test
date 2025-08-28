@@ -4,14 +4,14 @@ import '../src/css/Productos.css'
     const ListaShow = () => {
       return (
         <section className='section-products' id='productosId'>
-        <h2 className='product-title'>Productos</h2>
+        <h2 className='section-title'>Productos</h2>
             <div className=''>
             <article className=''>
               <section id="Projects" className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
                 <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
                   <a href="#">
                     <img
-                      src="img/product-1.png"
+                      src="/img/product-1.png"
                       alt="Product"
                       className="h-80 w-72 object-cover rounded-t-xl"
                     />
@@ -27,7 +27,7 @@ import '../src/css/Productos.css'
                 <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
                   <a href="#">
                     <img
-                      src="img/product-1.png"
+                      src="/img/product-1.png"
                       alt="Product"
                       className="h-80 w-72 object-cover rounded-t-xl"
                     />
@@ -42,7 +42,7 @@ import '../src/css/Productos.css'
                 <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
                   <a href="#">
                     <img
-                      src="img/product-1.png"
+                      src="/img/product-1.png"
                       alt="Product"
                       className="h-80 w-72 object-cover rounded-t-xl"
                     />
@@ -57,7 +57,7 @@ import '../src/css/Productos.css'
                 <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
                   <a href="#">
                     <img
-                      src="img/product-1.png"
+                      src="/img/product-1.png"
                       alt="Product"
                       className="h-80 w-72 object-cover rounded-t-xl"
                     />
@@ -72,7 +72,7 @@ import '../src/css/Productos.css'
                 <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
                   <a href="#">
                     <img
-                      src="img/product-1.png"
+                      src="/img/product-1.png"
                       alt="Product"
                       className="h-80 w-72 object-cover rounded-t-xl"
                     />
@@ -87,7 +87,7 @@ import '../src/css/Productos.css'
                 <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
                   <a href="#">
                     <img
-                      src="img/product-1.png"
+                      src="/img/product-1.png"
                       alt="Product"
                       className="h-80 w-72 object-cover rounded-t-xl"
                     />
@@ -114,7 +114,7 @@ import '../src/css/Productos.css'
                       <a href="#">
                         <img
                           className="w-full"
-                          src="img/armero-square.png"
+                          src="/img/armero-square.png"
                           alt="Sunset in the mountains"
                         />
                         <div className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
@@ -136,7 +136,7 @@ import '../src/css/Productos.css'
                       <a href="#">
                         <img
                           className="w-full"
-                          src="img/armero-square.png"
+                          src="/img/armero-square.png"
                           alt="Sunset in the mountains"
                         />
                         <div className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
@@ -158,7 +158,7 @@ import '../src/css/Productos.css'
                       <a href="#">
                         <img
                           className="w-full"
-                          src="img/armero-square.png"
+                          src="/img/armero-square.png"
                           alt="Sunset in the mountains"
                         />
                         <div className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
@@ -180,7 +180,7 @@ import '../src/css/Productos.css'
                       <a href="#">
                         <img
                           className="w-full"
-                          src="img/armero-square.png"
+                          src="/img/armero-square.png"
                           alt="Sunset in the mountains"
                         />
                         <div className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
@@ -202,7 +202,7 @@ import '../src/css/Productos.css'
                       <a href="#">
                         <img
                           className="w-full"
-                          src="img/armero-square.png"
+                          src="/img/armero-square.png"
                           alt="Sunset in the mountains"
                         />
                         <div className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
@@ -224,7 +224,7 @@ import '../src/css/Productos.css'
                       <a href="#">
                         <img
                           className="w-full"
-                          src="img/armero-square.png"
+                          src="/img/armero-square.png"
                           alt="Sunset in the mountains"
                         />
                         <div className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
@@ -255,7 +255,7 @@ import '../src/css/Productos.css'
                   <div className="card-producto rounded overflow-hidden shadow-lg hover:scale-105 hover:shadow-xl duration-500">
                     <article className="card-producto-article relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-sm mx-auto">
                     <img 
-                      src="img/armero-square.png" 
+                      src="/img/armero-square.png" 
                       alt="University of Southern California" 
                       className="absolute inset-0 h-full w-full object-cover" 
                     />
@@ -269,7 +269,7 @@ import '../src/css/Productos.css'
                   <div className="card-producto rounded overflow-hidden shadow-lg hover:scale-105 hover:shadow-xl duration-500">
                     <article className="card-producto-article relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-sm mx-auto">
                     <img 
-                      src="img/armero-square.png" 
+                      src="/img/armero-square.png" 
                       alt="University of Southern California" 
                       className="absolute inset-0 h-full w-full object-cover" 
                     />
@@ -283,7 +283,7 @@ import '../src/css/Productos.css'
                   <div className="card-producto rounded overflow-hidden shadow-lg hover:scale-105 hover:shadow-xl duration-500">
                     <article className="card-producto-article relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-sm mx-auto">
                     <img 
-                      src="img/armero-square.png" 
+                      src="/img/armero-square.png" 
                       alt="University of Southern California" 
                       className="absolute inset-0 h-full w-full object-cover" 
                     />
@@ -297,7 +297,7 @@ import '../src/css/Productos.css'
                   <div className="card-producto rounded overflow-hidden shadow-lg hover:scale-105 hover:shadow-xl duration-500">
                     <article className="card-producto-article relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-sm mx-auto">
                     <img 
-                      src="img/armero-square.png" 
+                      src="/img/armero-square.png" 
                       alt="University of Southern California" 
                       className="absolute inset-0 h-full w-full object-cover" 
                     />
@@ -311,7 +311,7 @@ import '../src/css/Productos.css'
                   <div className="card-producto rounded overflow-hidden shadow-lg hover:scale-105 hover:shadow-xl duration-500">
                     <article className="card-producto-article relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-sm mx-auto">
                     <img 
-                      src="img/armero-square.png" 
+                      src="/img/armero-square.png" 
                       alt="University of Southern California" 
                       className="absolute inset-0 h-full w-full object-cover" 
                     />
@@ -325,7 +325,7 @@ import '../src/css/Productos.css'
                   <div className="card-producto rounded overflow-hidden shadow-lg hover:scale-105 hover:shadow-xl duration-500">
                     <article className="card-producto-article relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-sm mx-auto">
                     <img 
-                      src="img/armero-square.png" 
+                      src="/img/armero-square.png" 
                       alt="University of Southern California" 
                       className="absolute inset-0 h-full w-full object-cover" 
                     />

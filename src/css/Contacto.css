@@ -1,23 +1,107 @@
-.section-video{
-    width: 100%;
-    text-align: center;
-    margin-bottom: 5em;
-
+.section-contacto {
+    max-width: 1300px;
+    margin: 7em auto;
+    padding-top: 0;
+    color: rgb(107 114 128 / var(--tw-text-opacity, 1));
+    font-family: 'Poppins';
 }
 
-.section-video h1 {
-    font-size: 1.5rem;
+.section-contacto  hr {
+    max-width: 800px;
 }
 
-.section-video .videoEstreno {
-    width: 80vw;
-    height: calc( 80vw * 315 / 560);
+.title-contacto {
+    color: #bfa654;
+}
+
+.contenedor-contacto-info {
+    justify-content: center;
+    margin-top: 4em;
+}
+.contacto-info {
     margin: auto;
 }
-
-iframe {
-    border: none;
-    width: 100%;
-    height: 100%;
+.contacto-info-flex {
+    justify-content: center;
+}
+.icon-contacto {
+    height: 50px;
+}
+.icon-contacto svg {
+    color: rgb(107 114 128 / var(--tw-text-opacity, 1));
+    width: 45px !important;
+    height: 45px !important;
 }
 
+@media screen and (max-width:1280px) {
+    .wrapper-contacto {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .contacto-info-flex {
+        display: flex;
+        flex-direction: column;
+        max-width: 570px;
+        margin: auto;
+        align-items: flex-start;
+    }
+    .icon-contacto {
+        display: flex;
+        justify-content: flex-start;
+        margin: 0;
+    }
+    .section-contacto {
+        padding-bottom: 0;
+    }
+    .section-contacto  hr {
+        max-width: 65%;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .section-contacto {
+        margin-top: 30px;
+        padding: 0 1em;
+    }
+    .contacto-info-flex a { 
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .section-contacto {
+        margin-bottom: 1em;
+    }
+    .contacto-info p {
+        font-size: 13px !important;
+        text-align: center;
+    }
+    .title-contacto {
+        text-align: center;
+    }
+    .icon-contacto {
+        width: 40px !important;
+        height: 40px !important;
+        margin-right: 0;
+    }
+     .icon-info-title {
+        font-size: 19px;
+        margin: 0;
+    }
+    .icon-info-text {
+        font-size: 14px;
+    }
+    .contacto-info-flex a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .contacto-info-flex {
+        align-items: center;
+    }
+}

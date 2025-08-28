@@ -1,9 +1,9 @@
 .section-quienesomos {
     font-family: 'sf-pro-display';
-    margin-top: 50px;
+    margin-top: 7em;
     margin-bottom: 50px;
 }
-.product-title {
+.section-title {
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -54,7 +54,7 @@
     }
 
     @media screen and (max-width:640px){
-        .product-title {
+        .section-title {
             font: 23px;
         }
         .img-quienes-somos {
@@ -68,5 +68,8 @@
         }
         .cards-info {
             padding-top: 0 !important;
+        }
+        .section-info-cards {
+            padding-top: 0;
         }
     }

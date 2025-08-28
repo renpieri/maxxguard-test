@@ -1,19 +1,14 @@
 import { useState } from 'react'
 import { BrowserRouter } from 'react-router-dom'
-import { FiMenu } from 'react-icons/fi'
-import Productos from '../pages/Productos'
-//import Contacto from '../pages/Contacto'
-import QuienesSomos from '../pages/QuienesSomos'
-import Footer from '../pages/Footer'
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-
-import { FaSquareFacebook } from "react-icons/fa6";
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
+import { FiMenu } from 'react-icons/fi'
 import { RiInstagramFill } from "react-icons/ri";
 import { RiWhatsappFill } from "react-icons/ri";
-import { MdEmail } from "react-icons/md";
-
-import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
+import Productos from '../pages/Productos'
+import QuienesSomos from '../pages/QuienesSomos'
+import Contacto from '../pages/Contacto'
+import Footer from '../pages/Footer'
 import './App.css'
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -24,7 +19,6 @@ import 'swiper/css/scrollbar';
 function App() {
 
   const [open, setOpen] = useState(false); 
-  // const [productsOpen, setProductsOpen] = useState(false);
 
   return (
     <>
@@ -45,25 +39,14 @@ function App() {
                     <p>@maxxguard</p>
                   </a>
                 </div>
-                {/* <div className='top-header-img-div'>
-                  <a className='top-header-img-tel-a' href="mailto:armerosmaxxguard@gmail.com">
-                    <MdEmail className='mailto-img'/>
-                  </a>
-                </div>
-                <div className='top-header-img-div'>
-                  <a className='top-header-img-tel-a' href="https://www.facebook.com/p/Maxxguard-100039732237295/" target="_blank" rel="noopener noreferrer">
-                    <FaSquareFacebook className='mailto-img'/>
-                  </a>
-                </div> */}
               </div>
             </div>
           </div>
-          {/* Menu sin dropdown*/}
-          
+          {/* Menu sin dropdown*/}   
             <div className='menu-principal'> 
             <div className='menu-principal-div flex items-center justify-between xl:max-w-10xl xl:mx-auto max-w-full lg:p-5 flex-wrap w-full back p-5'> 
               <div className='menu-img-burger'>
-                <a href="/"><img className='logo-header' src="img/LOGO.png" alt='Logo maxxguard'/></a> 
+                <a href="/"><img className='logo-header' src="/public/img/LOGO.png" alt='Logo maxxguard'/></a> 
                 <FiMenu className='lg:hidden block h-8 w-8 cursor-pointer text-white' onClick={() => setOpen(!open)} /> 
               </div>
               <nav className={`nav-principal ${open ? 'block' : 'hidden'} lg:flex lg:justify-between items-center lg:w-auto w-full lg:bg-transparent`}>
@@ -100,7 +83,7 @@ function App() {
           <div className='menu-principal'>
             <div className='menu-principal-div flex items-center justify-between xl:max-w-10xl xl:mx-auto max-w-full lg:p-5 flex-wrap w-full back p-5'>
         
-                <a href="/"><img className='logo-header' src="img/LOGO.png" alt='Logo maxxguard'/></a>
+                <a href="/"><img className='logo-header' src="/public/img/LOGO.png" alt='Logo maxxguard'/></a>
                 <FiMenu className='menu-hamburguesa lg:hidden block h-8 w-8 cursor-pointer text-white' onClick={() => setOpen(!open)} />
        
               <nav className={`nav-principal ${open ? 'block' : 'hidden'} lg:flex lg:justify-between items-center lg:w-auto w-full lg:bg-transparent`}>
@@ -143,9 +126,7 @@ function App() {
             modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]} 
             spaceBetween={0}
             slidesPerView={1}
-            //navigation
             pagination={{ clickable: true }}
-            //scrollbar={{ draggable: true }}
             autoplay={{
               delay: 3000,       
               disableOnInteraction: false, 
@@ -156,30 +137,25 @@ function App() {
 
              <SwiperSlide>
                 <picture>
-                  <source media="(max-width: 639px)" srcSet="img/banner-1-mobile.png" />
-                  <source media="(max-width: 1023px) and (min-width: 640px)" srcSet="img/banner-1-tablet.png" />
-                  <img className="img-slider" src="img/banner-1-pc.png" alt="Banner" />
+                  <source media="(max-width: 639px)" srcSet="/public/img/banner-1-mobile.png" />
+                  <source media="(max-width: 1023px) and (min-width: 640px)" srcSet="/public/img/banner-1-tablet.png" />
+                  <img className="img-slider" src="/public/img/banner-1-pc.png" alt="Banner" />
                 </picture>
               </SwiperSlide>
               <SwiperSlide>
               <picture>
-                  <source media="(max-width: 639px)" srcSet="img/banner-2-mobile.png" />
-                  <source media="(max-width: 1023px) and (min-width: 640px)" srcSet="img/banner-2-tablet.png" />
-                  <img className="img-slider" src="img/banner-2-pc.png" alt="Banner" />
+                  <source media="(max-width: 639px)" srcSet="/public/img/banner-2-mobile.png" />
+                  <source media="(max-width: 1023px) and (min-width: 640px)" srcSet="/public/img/banner-2-tablet.png" />
+                  <img className="img-slider" src="/public/img/banner-2-pc.png" alt="Banner" />
                 </picture>
               </SwiperSlide>
-           {/*
-            <SwiperSlide><img className='img-slider' src="img/banner-2.png" alt="" /></SwiperSlide>
-            */}
           </Swiper>
 
         </header>  
         <main>
           <Productos></Productos>
           <QuienesSomos></QuienesSomos>
-          {/*
           <Contacto></Contacto>
-          */}
         </main>
         <Footer/>
       </BrowserRouter>
