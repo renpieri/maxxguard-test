@@ -4,7 +4,7 @@
     padding-top: 0;
     color: rgb(107 114 128 / var(--tw-text-opacity, 1));
     font-family: 'Poppins';
-    z-index: 0;
+    z-index: 0 !important;
 }
 
 .section-contacto  hr {
