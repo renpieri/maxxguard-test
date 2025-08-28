@@ -5,7 +5,7 @@ import '../src/css/Contacto.css'
 function Contacto() {
 
   return (
-    <section className='section-contacto relative z-10 overflow-hidden bg-white py-20 dark:bg-dark lg:py-[120px]' id='contactoId'>
+    <section className='section-contacto relative z-10 overflow-hidden bg-white dark:bg-dark lg:py-[120px]' id='contactoId'>
       <hr className="mt-6 mb-2 border-gray-300 sm:mx-auto lg:my-8 m-auto" />
        
 
