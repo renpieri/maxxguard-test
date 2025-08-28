@@ -23,9 +23,9 @@ function QuienesSomos(){
                 </div>
 
                 <div className="py-6 bg-white section-info-cards">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 section-info-cards-div">
 
-
+{ /*
                     <div className="mt-10">
                         <dl className="container-text-item space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
                             <div className="relative shadow-xl p-4 rounded-xl">
@@ -65,22 +65,59 @@ Prestamos especial atención a cada detalle de terminación, tanto en el interio
                                 <dd className="item-text mt-2 ml-16 text-base text-gray-500"> Ofrecemos una atención personalizada, orientada a potenciar al máximo nuestros diseños y garantizar al cliente la mejor experiencia y servicio en cada etapa.
                                 </dd>
                             </div>
-                            <div className="relative shadow-xl p-4 rounded-xl">
-                                <dt className='flex-icon-title'>
-                                    <div
-                                        className="div-logo-item absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
-                                        <GiWorld className='servicio'/>
-
-                                    </div>
-                                    <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Producción nacional
-                                    </p>
-                                </dt>
-                                <dd className="item-text mt-2 ml-16 text-base text-gray-500"> En MAXXGUARD nos enorgullece fabricar íntegramente en Argentina.
-Cada uno de nuestros productos es diseñado y producido en Morón, Provincia de Buenos Aires, con mano de obra calificada y procesos de producción que aseguran máxima confiabilidad y durabilidad.
-                                </dd>
-                            </div>
                         </dl>
                     </div>
+*/}
+
+<div className="mt-10">
+  <dl className="container-text-item flex flex-col md:flex-row md:justify-between gap-8">
+    <div className="relative shadow-xl p-4 rounded-xl flex-1">
+      <dt className="flex-icon-title">
+        <div className="div-logo-item absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
+          <AiOutlineBarChart className="servicio" />
+        </div>
+        <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">
+          Servicio
+        </p>
+      </dt>
+      <dd className="item-text mt-2 ml-16 text-base text-gray-500">
+        Nuestros productos son fabricados con materiales de primera calidad y
+        con distribución a todo el país. Contamos con una fuerte inversión en rrhh y tecnología, con el fin de crecer, mejorar la calidad, la seguridad y variedad de nuestros productos.
+      </dd>
+    </div>
+
+    <div className="relative shadow-xl p-4 rounded-xl flex-1">
+      <dt className="flex-icon-title">
+        <div className="div-logo-item absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
+          <MdWorkspacePremium className="servicio" />
+        </div>
+        <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">
+          Calidad
+        </p>
+      </dt>
+      <dd className="item-text mt-2 ml-16 text-base text-gray-500">
+        La calidad es un objetivo esencial en cada uno de nuestros productos.
+        Prestamos atención a cada detalle y necesidad, tanto en interior como exterior, garantizando un resultado final que
+        combina estetica, seguridad y precisión.
+      </dd>
+    </div>
+
+    <div className="relative shadow-xl p-4 rounded-xl flex-1">
+      <dt className="flex-icon-title">
+        <div className="div-logo-item absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
+          <RiCustomerService2Fill className="servicio" />
+        </div>
+        <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">
+          Atención
+        </p>
+      </dt>
+      <dd className="item-text mt-2 ml-16 text-base text-gray-500">
+        En MAXXGUARD ofrecemos una atención personalizada e inmediata. Para nosotros es fundamental garantizar a cada cliente la mejor experiencia, brindando un servicio confiable, seguro y de calidad en cada etapa.
+      </dd>
+    </div>
+  </dl>
+</div>
+
 
                 </div>
                 </div>
