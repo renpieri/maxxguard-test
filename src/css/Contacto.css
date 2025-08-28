@@ -72,6 +72,9 @@
 }
 
 @media screen and (max-width: 640px) {
+    .section-contacto  hr {
+        margin-top: 1em;
+    }
     .section-contacto {
         margin-bottom: 1em;
         margin-top: 0;
