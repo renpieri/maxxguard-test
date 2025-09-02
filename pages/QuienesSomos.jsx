@@ -7,12 +7,12 @@ function QuienesSomos(){
 
     return(
         <section className='section-quienesomos relative' id='quienesomosId'>
-            <h2 className='section-title'>Seguridad de alto calibre</h2>         
             <div className='contenedor-quienes-somos'>
                 <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
                     <div className="w-full justify-start items-center gap-8 grid lg:grid-cols-2 grid-cols-1 img-text-div">
                         <div className="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex quienes-somos-principal-text-container">
                             <div className="quienes-somos-principal-text w-full flex-col justify-start lg:items-start items-center gap-4 flex">
+                              <h2 className='section-title'>Seguridad de alto calibre</h2>
                                 <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center dd">MAXXGUARD es una empresa muy joven, innovadora, dinámica y por sobre todas las cosas emprendedora. Nos especializamos en el diseño, producción y comercialización de Armeros de Seguridad, cumpliendo de manera estricta con las normativas vigentes del RENAR.</p>
                         
                         <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">Contamos con una capacidad de respuesta inmediata y realizamos envíos a todo el país, garantizando eficiencia, compromiso y confianza en cada entrega.</p>

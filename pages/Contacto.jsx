@@ -17,7 +17,7 @@ function Contacto() {
           <div className="-mx-4 flex flex-wrap contenedor-contacto-info">
             <div className="w-full px-4">
               <div className="mb-12 lg:mb-0">
-                <div className="mb-12 max-w-[570px] lg:mb-0 contacto-info">
+                <div className="mb-12 max-w-[600px] lg:mb-0 contacto-info">
 
                 <h2 className="mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px] title-contacto">
                   COMUNICATE CON NOSOTROS

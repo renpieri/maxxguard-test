@@ -9,10 +9,12 @@
 
 .section-contacto  hr {
     max-width: 800px;
+    margin-top: 0;
 }
 
 .title-contacto {
     color: #bfa654;
+    margin-bottom: 2rem;
 }
 
 .contenedor-contacto-info {
@@ -34,6 +36,10 @@
     height: 45px !important;
 }
 
+.contacto-info p {
+    margin-bottom: 3em;
+}
+
 @media screen and (max-width:1280px) {
     .wrapper-contacto {
         margin: auto;
@@ -44,7 +50,7 @@
     .contacto-info-flex {
         display: flex;
         flex-direction: column;
-        max-width: 570px;
+        max-width: 600px;
         margin: auto;
         align-items: flex-start;
     }
@@ -71,7 +77,6 @@
         align-items: center;
     }
 }
-
 
 @media screen and (max-width: 640px) {
     .section-contacto  hr {

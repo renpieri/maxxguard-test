@@ -12,7 +12,7 @@ function Footer(){
   <div className="footer-div w-full max-w-screen-xl mx-auto p-4 md:py-8">
     <div className="flex-logo-footer-navbar sm:flex sm:items-center sm:justify-between">
       <a href="/c" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-        <img className='logo-footer' src="img/LOGO.png" alt='Logo maxxguard'/>
+        <img className='logo-footer' src="../img/LOGO.png" alt='Logo maxxguard'/>
       </a>
 
       <div className='footer-redes-navbar'>

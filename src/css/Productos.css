@@ -5,6 +5,12 @@
     margin-top: 20px;
     color: rgb(55 65 81 / var(--tw-text-opacity, 1));
 }
+.product-name {
+  color: #000000c2;
+}
+.section-products .section-title {
+  text-transform: uppercase;
+}
 
 .section-title {
   font-size: 30px;

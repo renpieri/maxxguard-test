@@ -1,8 +1,13 @@
 .section-quienesomos {
     font-family: 'sf-pro-display';
-    margin-top: 7em;
     margin-bottom: 50px;
+    margin: 6em auto;
 }
+
+.section-quienesomos .section-title {
+    text-transform: uppercase;
+}
+
 .section-title {
   font-size: 30px;
   font-style: normal;
@@ -67,20 +72,20 @@
             margin-left: 0 !important;
         }
         .container-text-item {
-            padding: 0 1em !important;
+            padding: 0 !important;
         }
         .flex-1 {
-            max-width: 632px;
+            max-width: 600px;
             margin: auto;
         }
         .container-text-item {
             flex-direction: column;
         }
         .img-quienes-somos {
-            max-width: 632px !important;
+            max-width: 600px !important;
         }
         .quienes-somos-principal-text-container {
-            max-width: 632px;
+            max-width: 600px;
             margin: auto;
         }
     }
