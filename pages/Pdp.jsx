@@ -31,7 +31,7 @@ const Pdp = () => {
 
           <div className="w-full contenedor-img-pdp">
             <img
-              src={`../img/${mainImage}`}
+              src={`img/${mainImage}`}
               alt={producto.name}
               onClick={() => setIsModalOpen(true)}
               className="w-full h-auto rounded-lg shadow-md mb-4 img-principal-pdp"
@@ -40,7 +40,7 @@ const Pdp = () => {
               {producto.img.map((src, index) => (
                 <img
                   key={index}
-                  src={`../img/${src}`}
+                  src={`img/${src}`}
                   alt={`Thumbnail ${index + 1}`}
                   className="w-16 sm:w-20 object-cover rounded-md cursor-pointer opacity-60 hover:opacity-100 transition duration-300 img-variante-pdp"
                   onClick={() => setMainImage(src)}
@@ -90,7 +90,7 @@ const Pdp = () => {
               ✕
             </button>
             <img
-              src={`../img/${mainImage}`}
+              src={`img/${mainImage}`}
               alt={producto.name}
               className="max-w-[90vw] max-h-[90vh] rounded-lg shadow-lg"
             />
