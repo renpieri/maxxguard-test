@@ -29,12 +29,12 @@ const Header = () => {
 
         <div className='menu-principal'> 
           <div className='menu-principal-div flex items-center justify-between xl:max-w-10xl xl:mx-auto max-w-full lg:p-5 flex-wrap w-full back p-5'> 
-            <div className='menu-img-burger'>
+            <div className='menu-img-burger px-3'>
               <a href="/"><img className='logo-header' src="img/LOGO.png" alt='Logo maxxguard'/></a> 
               <FiMenu className='lg:hidden block h-8 w-8 cursor-pointer text-white' onClick={() => setOpen(!open)} /> 
             </div>
             <nav className={`nav-principal ${open ? 'block' : 'hidden'} lg:flex lg:justify-between items-center lg:w-auto w-full lg:bg-transparent`}>
-              <ul className='menu-ul lg:flex px-3 text-white lg:justify-between mx-10'> 
+              <ul className='menu-ul lg:flex px-3 text-white lg:justify-between'> 
                 <li className='menu-li mx-3'><a className='menu-a block p-3 lg:p-0' href="/" onClick={() => setOpen(!open)}>Inicio</a></li> 
                 <li className='menu-li mx-3'><a className='menu-a block p-3 lg:p-0' href="/#productosId" onClick={() => setOpen(!open)}>Productos</a></li>
                 <li className='menu-li mx-3'><a className='menu-a block p-3 lg:p-0' href="/#quienesomosId" onClick={() => setOpen(!open)}>Quienes somos</a></li> 
