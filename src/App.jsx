@@ -1,5 +1,5 @@
 import { React } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import Header from '../pages/Header'
 import Productos from '../pages/Productos'
 import Pdp from '../pages/Pdp'
@@ -16,7 +16,7 @@ import 'swiper/css/scrollbar';
 function App() {
 
   return (
-    <BrowserRouter> 
+    <HashRouter> 
         <Header />
       <Routes>
         <Route path="/" element={
@@ -33,7 +33,7 @@ function App() {
         <Route path="/producto/:id" element={<Pdp />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
