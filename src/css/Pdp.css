@@ -40,6 +40,22 @@
     padding-top: 66px !important;
     padding-bottom: 0 !important;
 }
+.div-medidas-pdp {
+    padding: 1em;
+    border-radius: 5px;
+    background: rgba(219, 219, 219, 0.5);
+}
+
+.text-medidas::before {
+    content: "";
+    position: absolute;
+    left: 27px;
+    margin: 0 auto;
+    width: 45px;
+    height: 4px;
+    background: #bfa754;
+    top: 41px;
+}
 
 @media screen and (max-width: 1023px) {
     .contenedor-img-info-pdp {

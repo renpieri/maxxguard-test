@@ -56,7 +56,7 @@ const Pdp = () => {
 
             <p className="text-gray-700 mb-6">{producto.descripcion}</p>
 
-            <div>
+            <div className="div-medidas-pdp">
               <h3 className="text-lg font-semibold mb-2">Medidas:</h3>
               <ul className="list-disc list-inside text-gray-700">
                 {Object.entries(producto.medidas).map(([key, value], index) => (
