@@ -30,9 +30,9 @@ function Contacto() {
             </div>
                 <div className="flex contacto-info-flex">
 
-                  <div className="mb-8 flex w-full max-w-[370px]">
+                  <div className="mb-8 flex w-full max-w-[370px] contacto-info-flex-item">
                     <a href="https://wa.me/541124903366" target="_blank" rel="noopener noreferrer" className='flex m-auto w-full'>
-                      <div className="mr-2 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary/5 text-primary sm:h-[70px] sm:max-w-[70px] icon-contacto">
+                      <div className="flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary/5 text-primary sm:h-[70px] sm:max-w-[70px] icon-contacto">
                       <svg
                         width="45"
                         height="45"
@@ -72,9 +72,9 @@ function Contacto() {
                     </a>
                   </div>
 
-                  <div className="mb-8 flex w-full max-w-[370px]">
+                  <div className="mb-8 flex w-full max-w-[370px] contacto-info-flex-item">
                     <a href="https://www.instagram.com/maxxguard.arg/" target="_blank" rel="noopener noreferrer" className='flex m-auto w-full'> 
-                    <div className="mr-2 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary/5 text-primary sm:h-[70px] sm:max-w-[70px] icon-contacto">
+                    <div className="flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary/5 text-primary sm:h-[70px] sm:max-w-[70px] icon-contacto">
                       <FiInstagram />
 
                     </div>
@@ -89,9 +89,9 @@ function Contacto() {
                     </a>
                   </div>
                   
-                  <div className="mb-8 flex w-full max-w-[370px]">
+                  <div className="mb-8 flex w-full max-w-[370px] contacto-info-flex-item">
                     <a href="mailto:armerosmaxxguard@gmail.com" target="_blank" rel="noopener noreferrer" className='flex m-auto w-full'> 
-                      <div className="mr-2 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary/5 text-primary sm:h-[70px] sm:max-w-[70px] icon-contacto">
+                      <div className="flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary/5 text-primary sm:h-[70px] sm:max-w-[70px] icon-contacto">
                         <svg
                           width="45"
                           height="45"
