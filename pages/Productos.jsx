@@ -17,7 +17,7 @@ const Productos = () => {
               >
                 <Link to={`/producto/${producto.id}`}>
                   <img
-                    src="img/product-1.png"
+                    src="/img/product-1.png"
                     alt={producto.name}
                     className="h-80 w-72 object-cover rounded-t-xl"
                   />
