@@ -58,6 +58,12 @@
     top: 41px;
 }
 
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+    .contenedor-img-info-pdp {
+        padding-bottom: 66px !important;
+    }
+}
+
 @media screen and (max-width: 1023px) {
     .contenedor-img-info-pdp {
         margin-top: 66px !important;
