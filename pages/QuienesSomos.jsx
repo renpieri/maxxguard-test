@@ -25,50 +25,6 @@ function QuienesSomos(){
                 <div className="py-6 bg-white section-info-cards">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 section-info-cards-div">
 
-{ /*
-                    <div className="mt-10">
-                        <dl className="container-text-item space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-                            <div className="relative shadow-xl p-4 rounded-xl">
-                                <dt className='flex-icon-title'>
-                                    <div
-                                        className="div-logo-item absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
-                                        <AiOutlineBarChart className='servicio'/>
-                                    </div>
-                                    <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Servicio</p>
-                                </dt>
-                                <dd className="item-text mt-2 ml-16 text-gray-500"> Tenemos varios modelos fabricados con materiales de primera calidad y distribución en todo el país.
-
-Respaldamos nuestro crecimiento con una sólida inversión en recursos humanos y tecnológicos, orientada a mejorar de manera constante la calidad, la seguridad y la variedad de nuestros productos.
-                                </dd>
-                            </div>
-                            <div className="relative shadow-xl p-4 rounded-xl">
-                                <dt className='flex-icon-title'>
-                                    <div
-                                        className="div-logo-item absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
-                                        <MdWorkspacePremium className='servicio'/>
-                                    </div>
-                                    <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Calidad</p>
-                                </dt>
-                                <dd className="item-text mt-2 ml-16 text-gray-500"> La calidad es un objetivo esencial en cada uno de nuestros productos.
-Prestamos especial atención a cada detalle de terminación, tanto en el interior como en el exterior, garantizando un resultado final que combina seguridad, precisión y excelencia.
-                                </dd>
-                            </div>
-                            <div className="relative shadow-xl p-4 rounded-xl">
-                                <dt className='flex-icon-title'>
-                                    <div
-                                        className="div-logo-item absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
-                                        <RiCustomerService2Fill className='servicio'/>
-                                    </div>
-                                    <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Atención
-                                    </p>
-                                </dt>
-                                <dd className="item-text mt-2 ml-16 text-gray-500"> Ofrecemos una atención personalizada, orientada a potenciar al máximo nuestros diseños y garantizar al cliente la mejor experiencia y servicio en cada etapa.
-                                </dd>
-                            </div>
-                        </dl>
-                    </div>
-*/}
-
 <div className="mt-10">
   <dl className="container-text-item flex flex-col md:flex-row md:justify-between gap-8">
     <div className="relative shadow-xl p-4 rounded-xl flex-1">
