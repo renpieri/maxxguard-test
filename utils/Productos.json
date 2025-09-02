@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Armero Básico",
+    "medidas": {
+      "alto": "120 cm",
+      "ancho": "40 cm",
+      "profundidad": "30 cm",
+      "peso": "100 kg"
+    },
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quis iure, expedita id aperiam ut eius cupiditate delectus! Explicabo consequuntur ad enim debitis qui fugiat quis laborum ipsum quibusdam maxime?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quis iure, expedita id aperiam ut eius cupiditate delectus! Explicabo consequuntur ad enim debitis qui fugiat quis laborum ipsum quibusdam maxime?",
+    "img": [
+      "product-1.png",
+      "IMG_2683.jpg",
+      "IMG_2586.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Armero Avanzado",
+    "medidas": {
+      "alto": "120 cm",
+      "ancho": "40 cm",
+      "profundidad": "30 cm",
+      "peso": "100 kg"
+    },
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quis iure, expedita id aperiam ut eius cupiditate delectus! Explicabo consequuntur ad enim debitis qui fugiat quis laborum ipsum quibusdam maxime?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quis iure, expedita id aperiam ut eius cupiditate delectus! Explicabo consequuntur ad enim debitis qui fugiat quis laborum ipsum quibusdam maxime?",
+    "img": [
+      "product-1.png",
+      "IMG_2683.jpg",
+      "IMG_2586.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Armero Industrial",
+    "medidas": {
+      "alto": "120 cm",
+      "ancho": "40 cm",
+      "profundidad": "30 cm",
+      "peso": "100 kg"
+    },
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quis iure, expedita id aperiam ut eius cupiditate delectus! Explicabo consequuntur ad enim debitis qui fugiat quis laborum ipsum quibusdam maxime?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quis iure, expedita id aperiam ut eius cupiditate delectus! Explicabo consequuntur ad enim debitis qui fugiat quis laborum ipsum quibusdam maxime?",
+    "img": [
+      "product-1.png",
+      "IMG_2683.jpg",
+      "IMG_2586.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Armero Pequeño",
+    "medidas": {
+      "alto": "120 cm",
+      "ancho": "40 cm",
+      "profundidad": "30 cm",
+      "peso": "100 kg"
+    },
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quis iure, expedita id aperiam ut eius cupiditate delectus! Explicabo consequuntur ad enim debitis qui fugiat quis laborum ipsum quibusdam maxime?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quis iure, expedita id aperiam ut eius cupiditate delectus! Explicabo consequuntur ad enim debitis qui fugiat quis laborum ipsum quibusdam maxime?",
+    "img": [
+      "product-1.png",
+      "IMG_2683.jpg",
+      "IMG_2586.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Armero Mediano",
+    "medidas": {
+      "alto": "120 cm",
+      "ancho": "40 cm",
+      "profundidad": "30 cm",
+      "peso": "100 kg"
+    },
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quis iure, expedita id aperiam ut eius cupiditate delectus! Explicabo consequuntur ad enim debitis qui fugiat quis laborum ipsum quibusdam maxime?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quis iure, expedita id aperiam ut eius cupiditate delectus! Explicabo consequuntur ad enim debitis qui fugiat quis laborum ipsum quibusdam maxime?",
+    "img": [
+      "product-1.png",
+      "IMG_2683.jpg",
+      "IMG_2586.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Armero Premium",
+    "medidas": {
+      "alto": "120 cm",
+      "ancho": "40 cm",
+      "profundidad": "30 cm",
+      "peso": "100 kg"
+    },
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quis iure, expedita id aperiam ut eius cupiditate delectus! Explicabo consequuntur ad enim debitis qui fugiat quis laborum ipsum quibusdam maxime?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quis iure, expedita id aperiam ut eius cupiditate delectus! Explicabo consequuntur ad enim debitis qui fugiat quis laborum ipsum quibusdam maxime?",
+    "img": [
+      "product-1.png",
+      "IMG_2683.jpg",
+      "IMG_2586.jpg"
+    ]
+  }
+]
