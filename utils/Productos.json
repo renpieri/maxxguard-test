@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "name": "Armero Básico",
+    "name": "Armero M-1012",
     "medidas": {
-      "alto": "120 cm",
-      "ancho": "40 cm",
-      "profundidad": "30 cm",
-      "peso": "100 kg"
+      "alto": "50cm",
+      "ancho": "35cm",
+      "profundidad": "35cm",
+      "peso": "25kg"
     },
-    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quis iure, expedita id aperiam ut eius cupiditate delectus! Explicabo consequuntur ad enim debitis qui fugiat quis laborum ipsum quibusdam maxime?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quis iure, expedita id aperiam ut eius cupiditate delectus! Explicabo consequuntur ad enim debitis qui fugiat quis laborum ipsum quibusdam maxime?",
+    "descripcion": "Armero para armas cortas. Fabricado en acero de bajo carbono de uso estructural, este armero está diseñada para ofrecer resistencia, seguridad y protección contra el fuego. Cuenta con un sistema de cierre de 4 pernos de seguridad de 25 mm de diámetro, accionados mediante una manija de 3 radios, que permite un manejo fácil y seguro. La estructura presenta un espesor de 2mm en la puerta y cuerpo, brindando un equilibrio entre robustez y peso. Incluye una estantería ajustable y removible, que permite organizar de manera flexible el contenido. Está equipada con cerradura electrónica y ofrece protección contra el fuego durante 30 minutos a 650°C.",
     "img": [
       "product-1.png",
       "IMG_2683.jpg",
@@ -17,14 +17,14 @@
   },
   {
     "id": 2,
-    "name": "Armero Avanzado",
+    "name": "Armero M-1005",
     "medidas": {
-      "alto": "120 cm",
-      "ancho": "40 cm",
-      "profundidad": "30 cm",
-      "peso": "100 kg"
+      "alto": "145cm",
+      "ancho": "30cm",
+      "profundidad": "30cm",
+      "peso": "31kg"
     },
-    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quis iure, expedita id aperiam ut eius cupiditate delectus! Explicabo consequuntur ad enim debitis qui fugiat quis laborum ipsum quibusdam maxime?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quis iure, expedita id aperiam ut eius cupiditate delectus! Explicabo consequuntur ad enim debitis qui fugiat quis laborum ipsum quibusdam maxime?",
+    "descripcion": "Este armero tiene capacidad máxima de 5 armas largas, incorporando además un compartimento adicional para municiones. Esta fabricado en acero de bajo carbono de uso estructural. Esta diseñado para brindar resistencia y seguridad. Cuenta con un sistema de cierre de 3 pernos de seguridad de 20 mm de diámetro, accionados mediante una manija en forma de L que facilita la apertura y el cierre. La estructura presenta un espesor de 2,5 mm en la puerta y en el cuerpo, ofreciendo un equilibrio entre solidez y peso.",
     "img": [
       "product-1.png",
       "IMG_2683.jpg",
@@ -33,14 +33,14 @@
   },
   {
     "id": 3,
-    "name": "Armero Industrial",
+    "name": "Armero M-1014",
     "medidas": {
-      "alto": "120 cm",
-      "ancho": "40 cm",
-      "profundidad": "30 cm",
-      "peso": "100 kg"
+      "alto": "140cm",
+      "ancho": "50cm",
+      "profundidad": "43cm",
+      "peso": "101kg"
     },
-    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quis iure, expedita id aperiam ut eius cupiditate delectus! Explicabo consequuntur ad enim debitis qui fugiat quis laborum ipsum quibusdam maxime?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quis iure, expedita id aperiam ut eius cupiditate delectus! Explicabo consequuntur ad enim debitis qui fugiat quis laborum ipsum quibusdam maxime?",
+    "descripcion": "Este armero tiene capacidad máxima para 14 armas largas, complementado con un kit organizador con bolsillos en la puerta para accesorios adicionales y con protección contra el fuego. Fabricado en acero de bajo carbono de uso estructural, está diseñado para ofrecer resistencia, seguridad y protección contra el fuego. Cuenta con un sistema de cierre de 6 pernos de seguridad de 20 mm de diámetro, accionados mediante una manija en forma de L para un manejo fácil y seguro. La estructura presenta un espesor de 2mm tanto en la puerta como en el cuerpo, proporcionando un equilibrio entre solidez y peso. Incluye 2 estanterías removibles y ajustables, que permiten organizar el contenido de manera flexible. Está equipada con cerradura electrónica y llaves de emergencia, y ofrece protección contra el fuego durante 30 minutos a 650°C.",
     "img": [
       "product-1.png",
       "IMG_2683.jpg",
@@ -49,14 +49,14 @@
   },
   {
     "id": 4,
-    "name": "Armero Pequeño",
+    "name": "Armero M-1022",
     "medidas": {
-      "alto": "120 cm",
-      "ancho": "40 cm",
-      "profundidad": "30 cm",
-      "peso": "100 kg"
+      "alto": "150cm",
+      "ancho": "66cm",
+      "profundidad": "50cm",
+      "peso": "147kg"
     },
-    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quis iure, expedita id aperiam ut eius cupiditate delectus! Explicabo consequuntur ad enim debitis qui fugiat quis laborum ipsum quibusdam maxime?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quis iure, expedita id aperiam ut eius cupiditate delectus! Explicabo consequuntur ad enim debitis qui fugiat quis laborum ipsum quibusdam maxime?",
+    "descripcion": "Armero con capacidad máxima para 22 armas largas, complementada con un kit organizador con bolsillos en la puerta para accesorios adicionales y protección contra el fuego. Esta fabricado en acero de bajo carbono de uso estructural, está diseñado para ofrecer resistencia, seguridad y protección contra el fuego. Cuenta con un sistema de cierre de 8 pernos de seguridad de 25 mm de diámetro, accionados mediante una manija de 3 radios, que facilita un manejo seguro y cómodo. La estructura presenta un espesor de 2mm tanto en la puerta como en el cuerpo, brindando un equilibrio entre robustez y peso. Incluye 3 estanterías removibles y ajustables, que permiten organizar el contenido de manera flexible.Está equipada con cerradura electrónica y llaves de emergencia, y ofrece protección contra el fuego durante 30 minutos a 650°C.",
     "img": [
       "product-1.png",
       "IMG_2683.jpg",
@@ -65,14 +65,14 @@
   },
   {
     "id": 5,
-    "name": "Armero Mediano",
+    "name": "Armero M-1040",
     "medidas": {
-      "alto": "120 cm",
-      "ancho": "40 cm",
-      "profundidad": "30 cm",
-      "peso": "100 kg"
+      "alto": "150cm",
+      "ancho": "100cm",
+      "profundidad": "56cm",
+      "peso": "226kg"
     },
-    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quis iure, expedita id aperiam ut eius cupiditate delectus! Explicabo consequuntur ad enim debitis qui fugiat quis laborum ipsum quibusdam maxime?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quis iure, expedita id aperiam ut eius cupiditate delectus! Explicabo consequuntur ad enim debitis qui fugiat quis laborum ipsum quibusdam maxime?",
+    "descripcion": "Armero con capacidad máxima para 40 armas largas, complementada con un kit organizador con bolsillos en la puerta para accesorios adicionales y con protección contra el fuego. Fabricado en acero de bajo carbono de uso estructural, este armero está diseñado para ofrecer resistencia, seguridad y protección contra el fuego. Cuenta con un sistema de cierre de 10 pernos de seguridad de 25 mm de diámetro, accionados mediante una manija de 5 radios, que facilita un manejo seguro y cómodo. La estructura presenta un espesor de 2mm tanto en la puerta como en el cuerpo, proporcionando un equilibrio entre robustez y peso. Incluye 3 estanterías removibles y ajustables, que permiten organizar el contenido de manera flexible. Está equipado con cerradura electrónica y llaves de emergencia, y ofrece protección contra el fuego durante 30 minutos a 650°C.",
     "img": [
       "product-1.png",
       "IMG_2683.jpg",
@@ -81,14 +81,14 @@
   },
   {
     "id": 6,
-    "name": "Armero Premium",
+    "name": "Armero M-1056",
     "medidas": {
-      "alto": "120 cm",
-      "ancho": "40 cm",
-      "profundidad": "30 cm",
-      "peso": "100 kg"
+      "alto": "180cm",
+      "ancho": "107cm",
+      "profundidad": "61cm",
+      "peso": "280kg"
     },
-    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quis iure, expedita id aperiam ut eius cupiditate delectus! Explicabo consequuntur ad enim debitis qui fugiat quis laborum ipsum quibusdam maxime?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quis iure, expedita id aperiam ut eius cupiditate delectus! Explicabo consequuntur ad enim debitis qui fugiat quis laborum ipsum quibusdam maxime?",
+    "descripcion": "Armero con capacidad máxima para 50 armas largas y 8 armas cortas, complementada con un kit organizador con bolsillos en la puerta para accesorios adicionales. Fabricado en acero de bajo carbono de uso estructural, este armero está diseñado para ofrecer resistencia, seguridad y protección contra el fuego. Cuenta con un sistema de cierre de 14 pernos de seguridad de 25 mm de diámetro, accionados mediante una manija de 5 radios, que facilita un manejo seguro y cómodo. La estructura presenta un espesor de 1,5 mm tanto en la puerta como en el cuerpo, proporcionando un equilibrio entre robustez y peso. Incluye 6 estanterías removibles y ajustables, que permiten organizar el contenido de manera flexible Está equipado con cerradura electrónica y llaves de emergencia, y ofrece protección contra el fuego durante 30 minutos a 650°C.",
     "img": [
       "product-1.png",
       "IMG_2683.jpg",
