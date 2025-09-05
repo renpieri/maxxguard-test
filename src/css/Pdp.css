@@ -135,12 +135,6 @@
   transform: translateX(-10px);
 }
 
-.e-c-pdp-bot {
-        display: block !important;
-    }
-    .e-c-pdp-top {
-        display: none !important;
-    }
 
 
 @media screen and (max-width: 1280px) {
@@ -164,6 +158,32 @@
     .ul-redes-footer {
         justify-content: center;
     }
+    
+ .contenedor-img-pdp {
+        position: relative;
+    }
+    .envio-pdp-contenedor  {
+        position: absolute;
+        top: 12px;
+        right: 11px;
+    }
+    .envio-pdp-cucarda {
+        gap: 2px !important;
+    }
+    .envio-pdp-cucarda p {
+        font-size: 10px !important;
+    }
+    .envio-icon {
+        height: 18px !important;
+        width: 18px !important;
+    }
+    .e-c-pdp-bot {
+        display: none !important;
+    }
+    .e-c-pdp-top {
+        display: block !important;
+    }
+
 }
 
 
@@ -257,31 +277,7 @@
         width: 632px !important;
         height: 700px !important;
     }
-    .contenedor-img-pdp {
-        position: relative;
-    }
-    .envio-pdp-contenedor  {
-        position: absolute;
-        top: 12px;
-        right: 11px;
-    }
-    .envio-pdp-cucarda {
-        gap: 2px !important;
-    }
-    .envio-pdp-cucarda p {
-        font-size: 10px !important;
-    }
-    .envio-icon {
-        height: 18px !important;
-        width: 18px !important;
-    }
-    .e-c-pdp-bot {
-        display: none !important;
-    }
-    .e-c-pdp-top {
-        display: block !important;
-    }
-
+   
 }
 
 @media screen and (max-width: 640px) {
