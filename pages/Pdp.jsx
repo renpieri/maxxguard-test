@@ -6,6 +6,7 @@ import { RiInstagramFill } from "react-icons/ri";
 import { RiWhatsappFill } from "react-icons/ri";
 import { MdEmail } from "react-icons/md";
 import { IoMdArrowBack } from "react-icons/io";
+
 import productos from "../utils/Productos.json";
 import "../src/css/Pdp.css";
 
@@ -40,6 +41,12 @@ const Pdp = () => {
         <div className="flex flex-wrap -mx-4 contenedor-img-info-pdp">
 
           <div className="w-full contenedor-img-pdp">
+              <div className="envio-pdp-contenedor e-c-pdp-top">
+              <div className="envio-pdp-cucarda">
+                <LiaShippingFastSolid className="envio-icon"/>
+                <p>ENVÍO A TODO EL PAÍS</p>
+              </div>
+            </div>
             <img
               src={`img/${mainImage}`}
               alt={producto.name}
@@ -79,13 +86,13 @@ const Pdp = () => {
                 ))}
               </ul>
             </div>
-            <div className="envio-gratis-pdp-contenedor">
-              <div className="envio-gratis-pdp">
+          
+<div className="envio-pdp-contenedor e-c-pdp-bot">
+              <div className="envio-pdp-cucarda">
                 <LiaShippingFastSolid className="envio-icon"/>
                 <p>ENVÍO A TODO EL PAÍS</p>
               </div>
             </div>
-
 
                 <hr className="mb-2 border-gray-300 sm:mx-auto lg:my-8 m-auto hr-pdp" />
             <div className="footer-div w-full max-w-screen-xl mx-auto">
@@ -127,11 +134,11 @@ const Pdp = () => {
       {isModalOpen && (
         <div
           className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-70 z-50"
-          onClick={() => setIsModalOpen(false)}
+          onClick={() => setIsModalOpen(false)} // cerrar al hacer click en el fondo
         >
           <div
             className="relative"
-            onClick={(e) => e.stopPropagation()}
+            onClick={(e) => e.stopPropagation()} // evita que cierre si clickeas sobre la imagen
           >
             <button
               className="absolute top-2 right-2 px-3 py-1 rounded-lg hover:text-amber-200 text-white"

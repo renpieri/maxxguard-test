@@ -48,7 +48,7 @@
     margin-bottom: 2em;
 }
 
-.envio-gratis-pdp {
+.envio-pdp-cucarda {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -135,6 +135,13 @@
   transform: translateX(-10px);
 }
 
+.e-c-pdp-bot {
+        display: none !important;
+    }
+    .e-c-pdp-top {
+        display: block !important;
+    }
+
 
 @media screen and (max-width: 1280px) {
     .porducto-title-pdp, 
@@ -150,7 +157,7 @@
         justify-content: center;
         align-items: center;
     }
-    .envio-gratis-pdp-contenedor {
+    .envio-pdp-contenedor {
         display: flex;
         justify-content: center;
     }
@@ -177,7 +184,7 @@
     }
 
     .hr-pdp {
-        margin: 2rem 0;
+        margin: 2rem 0 !important;
     }
     .porducto-title-pdp {
         font-size: 26px;
@@ -188,7 +195,7 @@
     .descrition-text, .div-medidas-pdp ul li {
         font-size: 15px;
     }
-    .envio-gratis-pdp p {
+    .envio-pdp-cucarda p {
         font-size: 12px;
     }
     .envio-icon {
@@ -223,6 +230,9 @@
         /* color: #bfa754; */
         color: rgb(28, 30, 32);
     }
+    .contenedor-img-info-pdp {
+        gap: 2em;
+    }
 }
 
 
@@ -246,6 +256,30 @@
     .img-principal-pdp {
         width: 632px !important;
         height: 700px !important;
+    }
+    .contenedor-img-pdp {
+        position: relative;
+    }
+    .envio-pdp-contenedor  {
+        position: absolute;
+        top: 12px;
+        right: 11px;
+    }
+    .envio-pdp-cucarda {
+        gap: 2px !important;
+    }
+    .envio-pdp-cucarda p {
+        font-size: 10px !important;
+    }
+    .envio-icon {
+        height: 18px !important;
+        width: 18px !important;
+    }
+    .e-c-pdp-bot {
+        display: none !important;
+    }
+    .e-c-pdp-top {
+        display: block !important;
     }
 
 }
