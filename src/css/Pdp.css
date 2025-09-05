@@ -136,10 +136,10 @@
 }
 
 .e-c-pdp-bot {
-        display: none !important;
+        display: block !important;
     }
     .e-c-pdp-top {
-        display: block !important;
+        display: none !important;
     }
 
 
