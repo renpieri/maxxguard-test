@@ -134,6 +134,12 @@
 .flecha-atras:hover {
   transform: translateX(-10px);
 }
+  .e-c-pdp-bot {
+        display: block !important;
+    }
+    .e-c-pdp-top {
+        display: none !important;
+    }
 
 
 
@@ -172,7 +178,7 @@
     }
     .envio-pdp-cucarda p {
         font-size: 10px !important;
-    }
+    }d
     .envio-icon {
         height: 18px !important;
         width: 18px !important;
