@@ -21,9 +21,7 @@
     justify-content: center;
     margin-top: 4em;
 }
-.contacto-info {
-    margin: auto;
-}
+
 .contacto-info-flex {
     justify-content: center;
 }
@@ -38,15 +36,39 @@
 
 .contacto-info p {
     margin-bottom: 3em;
+    font-size: 15px !important;
 }
 
+.contacto-info-flex-item a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.contacto-info-flex { 
+flex-direction: column;
+}
+.icon-contacto {
+    width: 55px !important;
+    height: 55px !important;
+}
+.contenedor-redes {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3em;
+}
+
+.icon-info-title {
+        font-weight: 500 !important;
+    }
 @media screen and (max-width:1280px) {
     .wrapper-contacto {
         margin: auto;
     }
 }
 
-@media screen and (max-width:1150px) {
+@media screen and (max-width:1150px) { 
+    
     .contacto-info-flex {
         display: flex;
         flex-direction: column;
@@ -67,6 +89,18 @@
     }
 }
 
+@media screen and (max-width:1150px) { 
+    .contenedor-redes {
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+        padding: 0;
+    } 
+    .contacto-info p {
+        margin-bottom: 0;
+    }
+}
+
 @media screen and (max-width:1023px) {
     .section-contacto {
         margin-top: 30px;
@@ -78,7 +112,7 @@
     }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 767px) {
     .section-contacto  hr {
         margin-top: 1em;
     }
@@ -106,9 +140,10 @@
         margin-right: 0;
     }
      .icon-info-title {
-        font-size: 15px;
+        font-size: 15px !important;
         margin: 0;
     }
+
     .icon-info-text {
         font-size: 14px;
     }
@@ -122,11 +157,7 @@
     .contacto-info-flex {
         align-items: center;
     }
-    .contacto-info .title-contacto,
-    .contacto-info p {
-        max-width: 360px;
-        margin: auto;
-    }
+   
 
     .contacto-info p {
         margin: 1.5em auto;
@@ -142,5 +173,17 @@
     }
     .icon-info-text {
         font-size: 12px !important;
+    }
+}
+
+@media screen and (max-width: 640px) {
+     .contacto-info .title-contacto,
+    .contacto-info p {
+        max-width: 360px;
+        margin: auto;
+    }
+
+    .contacto-info {
+        margin-bottom: 1em;
     }
 }

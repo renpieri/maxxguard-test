@@ -16,7 +16,7 @@ function Contacto() {
         <div className="wrapper-contacto">
           <div className="-mx-4 flex flex-wrap contenedor-contacto-info">
             <div className="w-full px-4">
-              <div className="mb-12 lg:mb-0">
+              <div className="mb-12 lg:mb-0 contenedor-redes">
                 <div className="mb-12 max-w-[600px] lg:mb-0 contacto-info">
 
                 <h2 className="mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px] title-contacto">

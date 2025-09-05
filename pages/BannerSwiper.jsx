@@ -20,6 +20,13 @@ const BannerSwiper = () => {
             <picture>
               <source media="(max-width: 639px)" srcSet="img/banner-1-mobile.png" />
               <source media="(max-width: 1023px) and (min-width: 640px)" srcSet="img/banner-1-tablet.png" />
+              <img className="img-slider" src="img/banner-4-pc.png" alt="Banner" />
+            </picture>
+          </SwiperSlide>
+          <SwiperSlide>
+            <picture>
+              <source media="(max-width: 639px)" srcSet="img/banner-1-mobile.png" />
+              <source media="(max-width: 1023px) and (min-width: 640px)" srcSet="img/banner-1-tablet.png" />
               <img className="img-slider" src="img/banner-1-pc.png" alt="Banner" />
             </picture>
           </SwiperSlide>

@@ -15,6 +15,9 @@
 .navbar-footer li a:hover {
     color: #bfa754;
 }
+
+
+
 .footer-mailto-img {
     color: white;
     height: 32px;
@@ -52,6 +55,13 @@
 .footer-redes-navbar {
     display: flex;
     flex-direction: column-reverse;
+}
+
+.footer-mailto-img:hover,
+.footer-wpp-img:hover,
+.footer-inst-img:hover,
+.footer-face-img:hover {
+    color: #bfa754;
 }
 
 @media screen and (max-width:1023px){

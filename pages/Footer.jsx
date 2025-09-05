@@ -7,6 +7,9 @@ import '../src/css/Footer.css'
 
 function Footer(){
 
+const currentYear = new Date().getFullYear();
+
+
     return(
             <footer className="footer shadow-sm dark:bg-gray-900" id='contactoId'>
   <div className="footer-div w-full max-w-screen-xl mx-auto p-4 md:py-8">
@@ -66,7 +69,7 @@ function Footer(){
     </div>
     <hr className="mt-6 mb-2 border-gray-200 sm:mx-auto lg:my-8" />
     <span className="copy-text block text-sm">
-      © 2025{" "}
+      © {currentYear}{" "}
   
        <span>Maxxguard</span> 
     
