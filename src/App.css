@@ -70,8 +70,8 @@ header {
 }
 
 .menu-principal-div {
-    padding: .5em !important;
-    max-width: 1300px !important;
+    padding: .5em;
+    max-width: 1300px;
 }
 
 .menu-a, .menu-a-button {
@@ -156,11 +156,31 @@ header {
 .menu-mobile-burger-li {
     display: none;
 }
+.chatBuble {
+    position: fixed;
+    z-index: 9999999;
+    background-color: #bfa754;
+    color: white;
+    width: 55px;
+    height: 55px;
+    top: 88vh;
+    right: 58px;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    cursor: pointer;
+}
 
+.chatBuble:hover {
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
 
 @media screen and (max-width:1023px){
     .swiper {
-        padding-top: 50px !important;
+        padding-top: 0 !important;
+        margin-top: 66px !important;
     }
 
     .menu-img-burger {
@@ -250,13 +270,20 @@ header {
         background: #000201ec;
         padding: 0 !important;
     }
+
+    .chatBuble {
+        width: 45px;
+        height: 45px;
+        top: 88vh;
+        right: 58px;
+    }
 }
 
-/* @media screen and (max-width:640px){
-    .swiper-wrapper { 
-        height: 100vh;
+ @media screen and (max-width:640px){
+     .chatBuble {
+        width: 40px;
+        height: 40px;
+        top: 92vh;
+        right: 35px;
     }
-    .img-slider {
-        height: 100vh;
-    }
-} */
+} 
