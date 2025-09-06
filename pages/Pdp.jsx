@@ -74,11 +74,11 @@ const Pdp = () => {
 
             <div className="div-descripcion-pdp">
               <h3 className="mb-2 title-descrition">Caracteristicas generales</h3>
-              <p className="text-gray-700 mb-6 descrition-text">{producto.descripcion}</p>
+              <p className=" mb-6 descrition-text">{producto.descripcion}</p>
             </div>
             <div className="div-medidas-pdp">
               <h3 className="text-lg font-semibold mb-2 text-medidas title-descrition">Medidas:</h3>
-              <ul className="list-disc list-inside text-gray-700 list-none">
+              <ul className="list-disc list-inside list-none">
                 {Object.entries(producto.medidas).map(([key, value], index) => (
                   <li key={index} className="mb-2">
                     <span className="capitalize descrition-text"><strong>{key}</strong></span>: {value}
@@ -140,7 +140,7 @@ const Pdp = () => {
                        <div className="info-detallada-general">
   <h3 className="title-descrition text-center">INFORMACIÓN DETALLADA:</h3>
   <div className="contenedor-specs">
-    <div>
+    <div className="div-list-specs">
 
 
       {/* ESPECIFICACIONES */}
@@ -167,7 +167,7 @@ const Pdp = () => {
         </>
       )}
     </div>
-    <div>
+    <div className="div-list-specs">
       {/* CUERPO */}
       {Array.isArray(producto.generales.cuerpo) && (
         <>

@@ -77,9 +77,9 @@
 }
 
 .descrition-text {
-    font-size: 17px;
-    text-align: justify;
-    color:#000201;
+    font-size: 17px !important;
+    text-align: justify !important;
+    color:#000201 !important;
 }
 .contenedor-specs {
     display: flex;
@@ -321,6 +321,9 @@
         width: 632px !important;
         height: 700px !important;
     }
+       .list-circle {
+    list-style: none;
+}
    
 }
 
@@ -337,6 +340,9 @@
 
     .contenedor-info-pdp {
         max-width: 360px !important;
+    }
+    .div-list-specs {
+        padding: 0 .5em;
     }
 }
 
