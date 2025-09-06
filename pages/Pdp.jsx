@@ -87,7 +87,7 @@ const Pdp = () => {
               </ul>
             </div>
           
-<div className="envio-pdp-contenedor e-c-pdp-bot">
+            <div className="envio-pdp-contenedor e-c-pdp-bot">
               <div className="envio-pdp-cucarda">
                 <LiaShippingFastSolid className="envio-icon"/>
                 <p>ENVÍO A TODO EL PAÍS</p>
@@ -126,7 +126,86 @@ const Pdp = () => {
 
 
           </div> 
+
+          
+
+
+
+
+
         </div>
+       
+
+
+                       <div className="info-detallada-general">
+  <h3 className="title-descrition text-center">INFORMACIÓN DETALLADA:</h3>
+  <div className="contenedor-specs">
+    <div>
+
+
+      {/* ESPECIFICACIONES */}
+      {Array.isArray(producto.generales.especificaciones) && (
+        <>
+          <h4 className="title-descrition-spec">Especificaciones:</h4>
+          <ul className="list-circle">
+            {producto.generales.especificaciones.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+        </>
+      )}
+
+      {/* PUERTA */}
+      {Array.isArray(producto.generales.puerta) && (
+        <>
+          <h4 className="title-descrition-spec">Seguridad de la puerta:</h4>
+          <ul className="list-circle">
+            {producto.generales.puerta.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+        </>
+      )}
+    </div>
+    <div>
+      {/* CUERPO */}
+      {Array.isArray(producto.generales.cuerpo) && (
+        <>
+          <h4 className="title-descrition-spec">Seguridad del cuerpo:</h4>
+          <ul className="list-circle">
+            {producto.generales.cuerpo.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+        </>
+      )}
+
+      {/* FUEGO */}
+      {Array.isArray(producto.generales.fuego) && producto.generales.fuego.length > 0 && (
+        <>
+          <h4 className="title-descrition-spec">Resistencia al fuego:</h4>
+          <ul className="list-circle">
+            {producto.generales.fuego.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+        </>
+      )}
+
+      {/* EXTERIOR */}
+      {Array.isArray(producto.generales.exterior) && (
+        <>
+          <h4 className="title-descrition-spec">Exterior:</h4>
+          <ul className="list-circle">
+            {producto.generales.exterior.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+        </>
+      )}
+    </div>
+    </div>
+  </div>
       </div>
 
 

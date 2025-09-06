@@ -13,7 +13,33 @@
       "product-1.png",
       "IMG_2683.jpg",
       "IMG_2586.jpg"
-    ]
+    ],
+    "generales":
+      {
+        "especificaciones": [
+          "Fabricado para armas cortas",
+          "Alto: 50cm - Ancho: 35cm - Profundidad: 35cm",
+          "Peso: 25 kg"
+        ],
+        "puerta": [
+          "Espesor del acero: 2mm",
+          "Cerradura electrónica",
+          "Manija de 3 radios",
+          "4 pernos de seguridad"
+        ],
+        "cuerpo": [
+          "Espesor del acero: 2mm",
+          "1 estantería ajustable"
+        ],
+        "fuego": [
+          "30 minutos 650°C",
+          "Sellado contra humo frío"
+        ],
+        "exterior": [
+          "Color negro"
+        ]
+      }
+    
   },
   {
     "id": 2,
@@ -29,7 +55,32 @@
       "product-1.png",
       "IMG_2683.jpg",
       "IMG_2586.jpg"
-    ]
+    ],
+    "generales":
+      {
+        "especificaciones": [
+          "Capacidad para 5 armas largas",
+          "Alto: 145cm - Ancho: 30cm - Profundidad: 30cm",
+          "Peso: 31 kg"
+        ],
+        "puerta": [
+          "Espesor del acero: 2mm",
+          "Cerradura electrónica + llaves de emergencia",
+          "Manija en forma de “L”",
+          "3 pernos de seguridad"
+        ],
+        "cuerpo": [
+          "Espesor del acero: 2mm",
+          "Capacidad para 5 armas largas",
+          "Caja de municiones interna",
+          "Interior alfombrado"
+        ],
+        "fuego": false,
+        "exterior": [
+          "Color negro"
+        ]
+      }
+    
   },
   {
     "id": 3,
@@ -45,7 +96,35 @@
       "product-1.png",
       "IMG_2683.jpg",
       "IMG_2586.jpg"
-    ]
+    ],
+    "generales":
+      {
+        "especificaciones": [
+          "Capacidad para 14 armas largas",
+          "Alto: 140cm - Ancho: 50cm - Profundidad: 43cm",
+          "Peso: 101 kg"
+        ],
+        "puerta": [
+          "Espesor del acero: 2mm",
+          "Cerradura electrónica + llaves de emergencia",
+          "Manija en forma de “L”",
+          "Organizador en la puerta"
+        ],
+        "cuerpo": [
+          "Espesor del acero: 2mm",
+          "Rack para 14 armas largas",
+          "2 estanterías ajustables",
+          "Interior alfombrado"
+        ],
+        "fuego": [
+          "30 minutos 650°C",
+          "Sellado contra humo frío"
+        ],
+        "exterior": [
+          "Color negro"
+        ]
+      }
+    
   },
   {
     "id": 4,
@@ -61,7 +140,36 @@
       "product-1.png",
       "IMG_2683.jpg",
       "IMG_2586.jpg"
-    ]
+    ],
+    "generales":
+      {
+        "especificaciones": [
+          "Capacidad para 22 armas largas",
+          "Alto 150cm - Ancho 66cm - Profundidad 50cm",
+          "Peso: 147 kg"
+        ],
+        "puerta": [
+          "Espesor del acero: 2mm",
+          "Cerradura electrónica + llaves de emergencia",
+          "Manija de 3 radios",
+          "Organizador en la puerta",
+          "8 pernos de seguridad"
+        ],
+        "cuerpo": [
+          "Espesor del acero: 2mm",
+          "Rack para 22 armas largas",
+          "3 estanterías ajustables",
+          "Interior alfombrado"
+        ],
+        "fuego": [
+          "30 minutos 650°C",
+          "Sellado contra humo frío"
+        ],
+        "exterior": [
+          "Color negro"
+        ]
+      }
+    
   },
   {
     "id": 5,
@@ -77,7 +185,36 @@
       "product-1.png",
       "IMG_2683.jpg",
       "IMG_2586.jpg"
-    ]
+    ],
+    "generales":
+      {
+        "especificaciones": [
+          "Capacidad máxima para 40 armas largas",
+          "Alto: 150cm - Ancho: 100cm - Profundidad: 56cm",
+          "Peso: 226kg"
+        ],
+        "puerta": [
+          "Espesor del acero: 2mm",
+          "Cerradura electrónica + llaves de emergencia",
+          "Manija de 3 radios",
+          "Organizador en la puerta",
+          "8 pernos de seguridad"
+        ],
+        "cuerpo": [
+          "Espesor del acero: 2mm",
+          "Rack para 40 armas largas",
+          "3 estanterías ajustables",
+          "Interior alfombrado"
+        ],
+        "fuego": [
+          "30 minutos 650°C",
+          "Sellado contra humo frío"
+        ],
+        "exterior": [
+          "Color negro"
+        ]
+      }
+    
   },
   {
     "id": 6,
@@ -93,6 +230,33 @@
       "product-1.png",
       "IMG_2683.jpg",
       "IMG_2586.jpg"
-    ]
+    ],
+    "generales": {
+      "especificaciones": [
+        "Capacidad para 56 armas largas y 8 armas cortas",
+        "Alto: 180cm - Ancho: 107cm - Profundidad: 61cm",
+        "Peso: 280kg"
+      ],
+      "puerta": [
+        "Espesor del acero: 2mm",
+        "Cerradura electrónica + llaves de emergencia",
+        "Manija de 5 radios",
+        "Organizador en la puerta",
+        "14 pernos de seguridad"
+      ],
+      "cuerpo": [
+        "Espesor del acero: 2mm",
+        "Capacidad para 56 armas largas y 8 armas cortas",
+        "6 estanterías ajustables",
+        "Interior alfombrado"
+      ],
+      "fuego": [
+        "30 minutos 650°C",
+        "Sellado contra humo frío"
+      ],
+      "exterior": [
+        "Color negro"
+      ]
+    }
   }
 ]
