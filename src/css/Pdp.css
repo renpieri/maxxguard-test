@@ -172,6 +172,9 @@
 .list-circle {
     list-style: circle;
 }
+.div-redes-pdp-bottom {
+    display: none;
+}
 
 @media screen and (max-width: 1280px) {
     .porducto-title-pdp, 
@@ -224,6 +227,25 @@
 .contenedor-specs {
     flex-direction: column;
     gap: 0;
+}
+.div-redes-pdp-top {
+    display: none;
+}
+.div-redes-pdp-bottom {
+    display: block;
+    margin-bottom: 30px;
+}
+.div-redes-pdp-bottom hr {
+    width: 80%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+}
+.div-medidas-pdp {
+    margin-bottom: 0 !important;
+}
+    .list-circle {
+    list-style: none;
 }
 }
 
@@ -297,6 +319,9 @@
     .contenedor-img-info-pdp {
         gap: 2em;
     }
+    .descrition-text {
+        text-align: center !important;
+    }
 }
 
 
@@ -321,9 +346,7 @@
         width: 632px !important;
         height: 700px !important;
     }
-       .list-circle {
-    list-style: none;
-}
+
    
 }
 
@@ -342,7 +365,7 @@
         max-width: 360px !important;
     }
     .div-list-specs {
-        padding: 0 .5em;
+        padding: 0 1em;
     }
 }
 
