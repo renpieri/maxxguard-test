@@ -1,5 +1,5 @@
-import React from "react";
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { React } from 'react'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import { IoChatbubblesOutline } from "react-icons/io5";
 import Header from '../pages/Header'
 import Productos from '../pages/Productos'
