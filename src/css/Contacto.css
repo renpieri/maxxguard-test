@@ -193,6 +193,7 @@ flex-direction: column;
 
     .contacto-info-flex-item a {
         width: 94px !important;
+        gap: 0;
     }
 }
 
