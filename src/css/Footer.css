@@ -55,6 +55,7 @@
 .footer-redes-navbar {
     display: flex;
     flex-direction: column-reverse;
+    align-items: flex-end;
 }
 
 .footer-mailto-img:hover,
@@ -65,6 +66,9 @@
 }
 
 @media screen and (max-width:1023px){
+    .footer-redes-navbar {
+        align-items: center;
+    }
     .flex-logo-footer-navbar {
         display: flex;
         justify-content: center;
