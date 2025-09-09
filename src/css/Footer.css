@@ -51,6 +51,8 @@
     padding-left: 0;
     padding-right: 0;
     max-width: 1300px;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
 }
 .footer-redes-navbar {
     display: flex;

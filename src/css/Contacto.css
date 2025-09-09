@@ -110,6 +110,18 @@ flex-direction: column;
         display: flex;
         align-items: center;
     }
+    .contacto-info-flex {
+        flex-direction: row !important;
+        gap: 1em;
+    }
+    .contacto-info-flex-item {
+        padding: 1em .5em .5em .5em !important;
+
+    }
+
+       .contacto-info-flex-item p {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -173,6 +185,14 @@ flex-direction: column;
     }
     .icon-info-text {
         font-size: 12px !important;
+    }
+      .contacto-info-flex-item {
+        padding: 1em .5em .5em .5em !important;
+        width: 100px !important;
+    }
+
+    .contacto-info-flex-item a {
+        width: 94px !important;
     }
 }
 
