@@ -35,6 +35,7 @@ const Pdp = () => {
     }
   }, [producto, navigate]);
 
+  // 🔥 funciones para navegar entre imágenes
   const handlePrev = () => {
     setCurrentIndex((prevIndex) => {
       const newIndex =
@@ -52,6 +53,7 @@ const Pdp = () => {
     });
   };
 
+  // 🔥 soporte de teclado en modal
   useEffect(() => {
     if (isModalOpen) {
       const handleKeyDown = (e) => {
@@ -88,7 +90,7 @@ const Pdp = () => {
             <div className="relative w-full">
               {/* Flecha izquierda */}
               <button
-                className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-40 text-white text-2xl p-2 rounded-full hover:bg-opacity-70 transition"
+                className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-40 text-white text-2xl p-2 rounded-full hover:bg-opacity-70 transition flecha-no-modal"
                 onClick={handlePrev}
               >
                 ❮
@@ -103,7 +105,7 @@ const Pdp = () => {
 
               {/* Flecha derecha */}
               <button
-                className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-40 text-white text-2xl p-2 rounded-full hover:bg-opacity-70 transition hover:text-amber-200"
+                className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-40 text-white text-2xl p-2 rounded-full hover:bg-opacity-70 transition hover:text-amber-200 flecha-no-modal"
                 onClick={handleNext}
               >
                 ❯
@@ -117,7 +119,12 @@ const Pdp = () => {
                   key={index}
                   src={`img/${src}`}
                   alt={`Thumbnail ${index + 1}`}
-                  className="w-16 sm:w-20 object-cover cursor-pointer opacity-60 hover:opacity-100 transition duration-300 img-variante-pdp"
+                  className={`w-16 sm:w-20 object-cover cursor-pointer transition duration-300 img-variante-pdp
+                    ${
+                      index === currentIndex
+                        ? "grayscale-0 opacity-100"
+                        : "grayscale opacity-60 hover:opacity-100"
+                    }`}
                   onClick={() => {
                     setMainImage(src);
                     setCurrentIndex(index);

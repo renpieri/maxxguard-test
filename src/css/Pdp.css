@@ -410,5 +410,10 @@
         max-width: 40px !important;
         max-height: 66px !important;
     }
+    .flecha-no-modal {
+        font-size: 16px !important;
+        padding-top: .2em !important;
+        padding-bottom: .2em !important;
+    }
 }
 
