@@ -143,8 +143,7 @@ const Pdp = () => {
 
         </div>
        
-            <hr className="my-6 md:my-8 border-gray-200 dark:border-gray-800" />
-
+<hr className="my-6 md:my-8 border-gray-200 dark:border-gray-800" />
 
                        <div className="info-detallada-general">
   <h3 className="title-descrition text-center">INFORMACIÓN DETALLADA:</h3>

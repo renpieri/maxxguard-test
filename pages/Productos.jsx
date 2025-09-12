@@ -1,6 +1,7 @@
 import '../src/css/Productos.css'
 import { Link } from 'react-router-dom'
 import productos from '../utils/Productos.json'
+import { LiaShippingFastSolid } from "react-icons/lia";
 
 
 const Productos = () => {
@@ -15,9 +16,15 @@ const Productos = () => {
                 key={producto.id}
                 className="w-72 bg-white shadow-md duration-500 hover:scale-105 hover:shadow-xl card-armero"
               >
+                 {/* <div className="envio-pdp-contenedor-home">
+                              <div className="envio-pdp-cucarda">
+                                <LiaShippingFastSolid className="envio-icon"/>
+                                <p>ENVÍO A TODO EL PAÍS</p>
+                              </div>
+                            </div> */}
                 <Link to={`/producto/${producto.id}`}>
                   <img
-                    src="img/product-1.png"
+                    src={`img/${producto.img[0]}`}
                     alt={producto.name}
                     className="h-80 w-72 object-cover rounded-t-xl"
                   />

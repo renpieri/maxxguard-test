@@ -196,6 +196,7 @@
         display: flex;
         justify-content: center;
     }
+
     .ul-redes-footer {
         justify-content: center;
     }
@@ -236,7 +237,7 @@
     margin-bottom: 30px;
 }
 .div-redes-pdp-bottom hr {
-    width: 70%;
+    width: 80%;
     margin-left: auto !important;
     margin-right: auto !important;
 
@@ -366,6 +367,10 @@
     }
     .div-list-specs {
         padding: 0 1em;
+    }
+    .img-variante-pdp {
+        max-width: 40px !important;
+        max-height: 66px !important;
     }
 }
 
