@@ -15,7 +15,7 @@ const currentYear = new Date().getFullYear();
   <div className="footer-div w-full max-w-screen-xl mx-auto p-4 md:py-8">
     <div className="flex-logo-footer-navbar sm:flex sm:items-center sm:justify-between">
       <a href="/c" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-        <img className='logo-footer' src="img/LOGO.png" alt='Logo maxxguard'/>
+        <img className='logo-footer' src="/img/LOGO.png" alt='Logo maxxguard'/>
       </a>
 
       <div className='footer-redes-navbar'>
@@ -67,14 +67,17 @@ const currentYear = new Date().getFullYear();
       </ul>
       </div>
     </div>
-    <hr className="mt-6 mb-2 border-gray-200 sm:mx-auto lg:my-8" />
-    <span className="copy-text block text-sm">
-      © {currentYear}{" "}
-  
-       <span>Maxxguard</span> 
-    
-      . Todos los derechos reservados.
-    </span>
+
+    <div className="div-copy-hr">
+      <hr className="mt-6 mb-2 border-gray-200 sm:mx-auto lg:my-8" />
+      <span className="copy-text block text-sm">
+        © {currentYear}{" "}
+      
+         <span>Maxxguard</span> 
+      
+        . Todos los derechos reservados.
+      </span>
+    </div>
   </div>
 </footer>
 

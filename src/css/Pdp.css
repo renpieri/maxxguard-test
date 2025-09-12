@@ -175,6 +175,23 @@
 .div-redes-pdp-bottom {
     display: none;
 }
+.btn-adelante-flecha-img {
+    position: absolute;
+    left: 104% !important;
+}
+.btn-atras-flecha-img {
+    position: absolute;
+    left: -10% !important;
+}
+.btn-adelante-flecha-img:hover {
+    color: #bfa754;
+}
+.btn-atras-flecha-img:hover {
+    color: #bfa754;
+}
+.div-img-atras-adelante {
+    position: relative;
+}
 
 @media screen and (max-width: 1280px) {
     .porducto-title-pdp, 
@@ -325,6 +342,27 @@
     }
 }
 
+@media screen and (max-width: 880px) {
+ .btn-adelante-flecha-img {
+        left: unset !important;
+        transition-duration: 150ms;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        padding: 0.5rem;
+        background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+        border-radius: 9999px;
+    }
+    .btn-atras-flecha-img {
+        left: 0.5rem !important;
+        transition-duration: 150ms;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        padding: 0.5rem;
+        background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+        border-radius: 9999px;
+    }
+}
+
 
 @media screen and (min-width: 801px) {
     .contenedor-img-info-pdp {
@@ -347,9 +385,9 @@
         width: 632px !important;
         height: 700px !important;
     }
-
-   
 }
+
+
 
 @media screen and (max-width: 640px) {
 

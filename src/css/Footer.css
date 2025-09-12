@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     color: white;
+    height: 30vh;
 }
 .footer hr {
     border-color: #bfa654;
@@ -120,5 +121,29 @@
     }
     .footer-div {
         padding-bottom: 8px;
+    }
+}
+
+
+@media screen and (max-width:640px){
+    .footer  {
+        height: 35vh;
+    }
+  .navbar-footer {
+        margin-bottom: .5em !important;
+    }
+    .flex-logo-footer-navbar {
+        margin-bottom: 2em;
+        gap: 1em;
+    }
+    .footer-div {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-around;
+        gap: 1em;
+    }
+    .div-copy-hr hr {
+        margin-top: 0 !important;
     }
 }
