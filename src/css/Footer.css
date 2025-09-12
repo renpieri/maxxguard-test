@@ -142,6 +142,7 @@
         height: 100%;
         justify-content: space-around;
         gap: 1em;
+        background-color: #000201;
     }
     .div-copy-hr hr {
         margin-top: 0 !important;
