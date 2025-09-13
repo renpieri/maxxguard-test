@@ -203,6 +203,7 @@
     .footer-h3 {
         text-align: center;
     }
+
     .div-medidas-pdp ul {
         display: flex;
         flex-direction: column;
@@ -212,6 +213,7 @@
     .envio-pdp-contenedor {
         display: flex;
         justify-content: center;
+        z-index: 1;
     }
 
     .ul-redes-footer {
@@ -221,6 +223,7 @@
  .contenedor-img-pdp {
         position: relative;
     }
+    
     .envio-pdp-contenedor  {
         position: absolute;
         top: 12px;
