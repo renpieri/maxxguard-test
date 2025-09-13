@@ -92,7 +92,6 @@
     .copy-text {
         text-align: center;
         font-size: 10px !important;
-        padding: .5em 0 !important;
     }
     .footer-mailto-img {
         color: white;
@@ -163,5 +162,5 @@
     .div-copy-hr hr {
         margin-top: 0 !important;
     }
-    
+
 }
