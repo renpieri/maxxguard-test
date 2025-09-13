@@ -91,7 +91,7 @@
     }
     .copy-text {
         text-align: center;
-        font-size: 10px;
+        font-size: 10px !important;
     }
     .footer-mailto-img {
         color: white;
@@ -128,7 +128,8 @@
 @media screen and (max-width:640px){
     .footer  {
         height: 35vh;
-        padding-bottom: 1em !important;
+        padding-bottom: 0 !important;
+        padding: 0 !important;
     }
   .navbar-footer {
         margin-bottom: .5em !important;
