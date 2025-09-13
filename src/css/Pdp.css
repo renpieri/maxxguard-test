@@ -417,14 +417,14 @@
     }
     .btn-adelante-flecha-img {
         font-size: 16px !important;
-        padding-top: .2em !important;
-        padding-bottom: .2em !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
     }
     .btn-atras-flecha-img {
         font-size: 16px !important;
         padding-top: 0 !important;
         padding-bottom: 0 !important;
     }
-    
+
 }
 
