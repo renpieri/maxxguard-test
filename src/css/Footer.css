@@ -128,6 +128,7 @@
 @media screen and (max-width:640px){
     .footer  {
         height: 35vh;
+        padding-bottom: 1em !important;
     }
   .navbar-footer {
         margin-bottom: .5em !important;
@@ -144,11 +145,10 @@
         gap: 1em;
     }
 
-     .footer .footer-div {
-        background-color: #000201;
+    .footer .footer-div {
+        background-color: #000201 !important;
     }
-    
-    
+
     .div-copy-hr hr {
         margin-top: 0 !important;
     }
