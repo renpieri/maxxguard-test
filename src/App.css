@@ -282,9 +282,9 @@ header {
 
  @media screen and (max-width:640px){
      .chatBuble {
-        width: 55px;
-        height: 55px;
-        top: 85vh;
-        right: 40px;
+        width: 58px;
+        height: 58px;
+        top: 83vh;
+        right: 42px;
     }
 } 
