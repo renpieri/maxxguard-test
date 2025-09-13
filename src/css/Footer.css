@@ -127,18 +127,22 @@
 
 
 @media screen and (max-width:640px){
+
     .footer  {
         height: 35vh;
         padding-bottom: 0 !important;
         padding: 0 !important;
     }
+
   .navbar-footer {
         margin-bottom: .5em !important;
     }
+
     .flex-logo-footer-navbar {
         margin-bottom: 2em;
         gap: 1em;
     }
+
     .footer-div {
         display: flex;
         flex-direction: column;
@@ -159,4 +163,5 @@
     .div-copy-hr hr {
         margin-top: 0 !important;
     }
+    
 }
