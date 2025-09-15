@@ -95,7 +95,7 @@
 
 @media screen and (max-width:767px) {
         .card-armero, .card-armero img {
-          width: 360px !important;
+          width: 300px !important;
           height: auto !important;
         }
         .flex-icon-title {
@@ -111,7 +111,7 @@
           text-align: center;
         }
         .section-card-productos {
-          row-gap: 3em !important;
+          row-gap: 4em !important;
         }
 }
 

@@ -108,7 +108,7 @@
 
     @media screen and (max-width:640px){
         .section-title {
-            font: 23px;
+            font-size: 23px !important;
         }
         
         .section-quienesomos .section-title {
