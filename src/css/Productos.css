@@ -74,12 +74,15 @@
   border-radius: 0 0 10px 10px !important;
 }
 .text-card-producto {
-  background: #bfa754;
+  /* background: #e7d592; */
+  /* background-color: #e7d592; */
+   background-color: rgb(230, 217, 147); 
 }
     
      .text-card-producto p {
           text-align: center;
-          color: white !important;
+          /*color: white !important;*/
+          color: #000000cc !important;
         }
 
         .span-precio {
