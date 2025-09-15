@@ -109,7 +109,7 @@ function QuienesSomos(){
             <div className="py-6 bg-white section-info-cards">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 section-info-cards-div">
 
-                <div className="mt-10">
+                <div className="mt-2">
                   <dl className="container-text-item flex flex-col md:flex-row md:justify-between gap-8">
                     <div className="relative shadow-xl p-4 flex-1">
                       <dt className="flex-icon-title">
