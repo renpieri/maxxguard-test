@@ -343,6 +343,13 @@
     }
     .descrition-text {
         text-align: center !important;
+        font-size: 16px !important;
+    }
+      .list-circle li {
+        font-size: 16px !important;
+    }
+    .title-descrition  {
+        font-size: 18px !important;
     }
 }
 
@@ -378,7 +385,7 @@
 @media screen and (max-width: 800px) {
 
     .contenedor-img-info-pdp {
-        margin: 0 0 60px 0 !important; 
+        margin: 0 0 30px 0 !important; 
     }
 
     .contenedor-info-pdp {

@@ -218,7 +218,7 @@ const Pdp = () => {
 
         {/* Info detallada */}
         <div className="info-detallada-general">
-          <h3 className="title-descrition text-center">INFORMACIÓN DETALLADA:</h3>
+          <h3 className="title-descrition text-center">Información detallada:</h3>
           <div className="contenedor-specs">
             <div className="div-list-specs">
               {Array.isArray(producto.generales.especificaciones) && (
