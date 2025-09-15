@@ -131,8 +131,8 @@
             padding-top: 0 !important;
         }
         .section-info-cards {
-            padding-top: 0;
-            padding-bottom: 0;
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;
         }
 
 
