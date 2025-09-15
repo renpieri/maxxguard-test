@@ -1,7 +1,7 @@
 
 .section-pdp {
     font-family: 'sf-pro-display';
-    color: #000201;
+    color: #000000dc;
 }
 
 .contenedor-img-info-pdp {
@@ -79,7 +79,7 @@
 .descrition-text {
     font-size: 17px !important;
     text-align: justify !important;
-    color:#000201 !important;
+    color:#000000dc !important;
 }
 .contenedor-specs {
     display: flex;
@@ -96,25 +96,25 @@
     width: 35px;
     height: 35px;
     /* color: #bfa754; */
-    color: #000201;
+    color: #000000dc;
 }
 .pdp-inst-img {
     width: 35px;
     height: 35px;
     /* color: #bfa754; */
-    color: #000201;
+    color: #000000dc;
 }
 .pdp-face-img {
     width: 33px;
     height: 33px;
     /* color: #bfa754; */
-    color: #000201;
+    color: #000000dc;
 }
 .pdp-mailto-img {
     width: 38px;
     height: 38px;
     /* color: #bfa754; */
-    color: #000201;
+    color: #000000dc;
 }
 
 .footer-h3 {
@@ -283,7 +283,6 @@
         padding-bottom: 0;
         margin-top: .2em !important;
     }
-    
     .btn-atras-pdp {
         margin-bottom: 0;
         padding-bottom: 0;
