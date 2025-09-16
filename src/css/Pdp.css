@@ -66,6 +66,12 @@
     width: 30px;
 }
 
+.flecha-no-modal {
+    width: 40px;
+    height: 42px;
+    padding: 0;
+    }
+
 .producto-title-pdp {
     font-size: 45px;
     font-weight: 700;
@@ -442,11 +448,19 @@
         font-size: 16px !important;
         padding-top: 0 !important;
         padding-bottom: 0 !important;
+        width: 30px !important;
+        height: 31px !important;
+        padding: 0 !important;
+        line-height: 27px !important;
     }
     .btn-atras-flecha-img {
         font-size: 16px !important;
         padding-top: 0 !important;
         padding-bottom: 0 !important;
+        width: 30px !important;
+        height: 31px !important;
+        padding: 0 !important;
+        line-height: 27px !important;
     }
 
 }
