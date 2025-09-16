@@ -170,7 +170,7 @@
       "profundidad": "43cm",
       "peso": "80kg"
     },
-    "descripcion": "Este armero tiene capacidad máxima para 14 armas largas, similar al 1014 pero con estantes en su interior, complementado con un kit organizador con bolsillos en la puerta para accesorios adicionales y con protección contra el fuego. Fabricado en acero de bajo carbono de uso estructural, está diseñado para ofrecer resistencia, seguridad y protección contra el fuego. Cuenta con un sistema de cierre de 6 pernos de seguridad de 20mm de diámetro, accionados mediante una manija en forma de L para un manejo fácil y seguro. La estructura presenta un espesor de 2mm tanto en la puerta como en el cuerpo, proporcionando un equilibrio entre solidez y peso. Incluye 2 estanterías removibles y ajustables, que permiten organizar el contenido de manera flexible. Está equipada con cerradura electrónica y llaves de emergencia, y ofrece protección contra el fuego durante 30 minutos a 650°C.",
+    "descripcion": "Este armero tiene capacidad máxima para 4 armas largas, similar al 1014 en dimensiones pero con estantes en su interior, complementado con un kit organizador con bolsillos en la puerta para accesorios adicionales y con protección contra el fuego. Fabricado en acero de bajo carbono de uso estructural, está diseñado para ofrecer resistencia, seguridad y protección contra el fuego. Cuenta con un sistema de cierre de 6 pernos de seguridad de 20mm de diámetro, accionados mediante una manija en forma de L para un manejo fácil y seguro. La estructura presenta un espesor de 2mm tanto en la puerta como en el cuerpo, proporcionando un equilibrio entre solidez y peso. Incluye 2 estanterías removibles y ajustables, que permiten organizar el contenido de manera flexible. Está equipada con cerradura electrónica y llaves de emergencia, y ofrece protección contra el fuego durante 30 minutos a 650°C.",
     "img": [
       "M-1014CE/M-1014CE-1-color.png",
       "M-1014CE/M-1014CE-2-color.png",
@@ -187,7 +187,7 @@
     "generales":
       {
         "especificaciones": [
-          "Capacidad para 14 armas largas",
+          "Capacidad para 4 armas largas + estantes",
           "Alto: 140cm - Ancho: 51cm - Profundidad: 43cm",
           "Peso: 80 kg"
         ],
@@ -200,7 +200,7 @@
         ],
         "cuerpo": [
           "Espesor del acero: 2mm",
-          "Rack para 14 armas largas",
+          "Rack para 4 armas largas con estantes",
           "2 estanterías ajustables",
           "Interior alfombrado"
         ],
