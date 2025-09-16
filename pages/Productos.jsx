@@ -26,14 +26,21 @@ const Productos = () => {
                   <img
                     src={`img/${producto.img[0]}`}
                     alt={producto.name}
-                    className="h-80 w-72 object-cover rounded-t-xl"
+                    className="object-cover rounded-t-xl"
                   />
                   <div className="px-4 py-3 w-72 text-card-producto">
                     <p className="text-lg font-bold truncate block capitalize product-name">
                       {producto.name}
-                      <span className='span-precio'> ${producto.precio} </span>
+                      {/* <span className='span-precio'> ${producto.precio} </span> */}
                     </p>
-                   
+                    <div>
+                      <ul className='ul-caract-list'>
+                        {producto.spec.map((spec) => ( 
+                        <li>{spec}</li>
+                        ))}
+                      </ul>
+                    </div>
+                        <Link to={`/producto/${producto.id}`} className='card-armero-a-precio-btn'>Ver precio</Link>
                   </div>
                 </Link>
               </div>

@@ -206,7 +206,40 @@
     position: relative;
 }
 
+.div-comunicate-redes-pdp  .ul-redes-footer {
+    gap: 1.2em;
+}
+.footer-h3 {
+    margin-bottom: .5em;
+}
+.div-comunicate-redes-pdp {
+    margin-top: 1.2em !important;
+    padding-left: 0 !important;
+}
 @media screen and (max-width: 1280px) {
+
+    .pdp-wpp-img { 
+    width: 30px;
+    height: 30px;
+}
+.pdp-inst-img {
+    width: 30px;
+    height: 30px;
+}
+.pdp-face-img {
+    width: 28px;
+    height: 28px;
+}
+.pdp-mailto-img {
+    width: 33px;
+    height: 33px;
+}
+
+
+    .contenedor-img-info-pdp {
+        gap: 1em;
+    }
+
     .porducto-title-pdp, 
     .title-descrition, 
     .descrition-text, 
@@ -215,6 +248,10 @@
     .info-detallada-general ul li,
     .footer-h3,
     .precio-producto-pdp {
+        text-align: center;
+    }
+
+    .producto-title-pdp {
         text-align: center;
     }
 
@@ -281,6 +318,9 @@
 }
     .list-circle {
     list-style: none;
+}
+.footer-h3 {
+    font-size: 17px;
 }
 
 }

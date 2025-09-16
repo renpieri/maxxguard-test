@@ -19,12 +19,18 @@
       "M-1012/M-1012-5-color.png",
       "M-1012/M-1012-6-color.png"
     ],
+    "spec": [
+      "Para Armas Cortas",
+      "Peso: 25kg",
+      "Cerradura Electrónica",
+      "50cmx35cm"
+    ],
     "generales":
       {
         "especificaciones": [
           "Fabricado para armas cortas",
           "Alto: 50cm - Ancho: 35cm - Profundidad: 35cm",
-          "Peso: 25 kg"
+          "Peso: 25kg"
         ],
         "puerta": [
           "Espesor del acero: 2mm",
@@ -66,12 +72,18 @@
       "M-1005/M-1005-5-color.png",
       "M-1005/M-1005-6-color.png"
     ],
+    "spec": [
+      "5 Armas Largas",
+      "Peso: 31kg",
+      "Cerradura Electrónica",
+      "145cmx30cm"
+    ],
     "generales":
       {
         "especificaciones": [
           "Capacidad para 5 armas largas",
           "Alto: 145cm - Ancho: 30cm - Profundidad: 30cm",
-          "Peso: 31 kg"
+          "Peso: 31kg"
         ],
         "puerta": [
           "Espesor del acero: 2mm",
@@ -112,12 +124,18 @@
       "M-1014/M-1014-5-color.png",
       "M-1014/M-1014-6-color.png"
     ],
+    "spec": [
+      "14 Armas Largas",
+      "Peso: 80kg",
+      "Cerradura Electrónica",
+      "140cmx51cm"
+    ],
     "generales":
       {
         "especificaciones": [
           "Capacidad para 14 armas largas",
           "Alto: 140cm - Ancho: 51cm - Profundidad: 43cm",
-          "Peso: 80 kg"
+          "Peso: 80kg"
         ],
         "puerta": [
           "Espesor del acero: 2mm",
@@ -160,6 +178,12 @@
       "M-1014CE/M-1014CE-4-color.png",
       "M-1014CE/M-1014CE-5-color.png",
       "M-1014CE/M-1014CE-6-color.png"
+    ],
+    "spec": [
+      "14 Armas Largas",
+      "Peso: 80kg",
+      "Cerradura Electrónica",
+      "140cmx51cm"
     ],
     "generales":
       {
@@ -211,6 +235,12 @@
       "M-1022/M-1022-5-color.png",
       "M-1022/M-1022-6-color.png"
     ],
+    "spec": [
+      "22 Armas Largas",
+      "Peso: 150kg",
+      "Cerradura Electrónica",
+      "150cmx66cm"
+    ],
     "generales":
       {
         "especificaciones": [
@@ -261,6 +291,12 @@
       "M-1040/M-1040-5-color.png",
       "M-1040/M-1040-6-color.png"
     ],
+    "spec": [
+      "40 Armas Largas",
+      "Peso: 226kg",
+      "Cerradura Electrónica",
+      "150cmx100cm"
+    ],
     "generales":
       {
         "especificaciones": [
@@ -310,6 +346,12 @@
       "M-1056/M-1056-5-color.png",
       "M-1056/M-1056-6-color.png",
       "M-1056/M-1056-7-color.png"
+    ],
+    "spec": [
+      "56 Armas Largas",
+      "Peso: 280kg",
+      "Cerradura Electrónica",
+      "180cmx107cm"
     ],
     "generales": {
       "especificaciones": [

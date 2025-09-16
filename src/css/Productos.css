@@ -74,21 +74,91 @@
   border-radius: 0 0 10px 10px !important;
 }
 .text-card-producto {
-   background: #bfa754; 
-  /* background-color: #e7d592; */
-  
+    padding-top: 0;
+    gap: .5em;
+    display: flex;
+    flex-direction: column;
 }
-    
+    .product-name {
+      color: #000000e7 !important;
+    }
      .text-card-producto p {
           text-align: center;
-          color: white !important;
+          /* color: white !important; */
           /* color: #000000cc !important; */
         }
 
+        .card-armero-a {
+          display: flex;
+          flex-direction: column;
+          gap: .5em;
+        }
+
+
+
+
+.ul-caract-list li {
+      color: #000000e7 !important;
+      text-align: left;
+}
         .span-precio {
           margin-left: 3em;
           font-weight: 400;
         }
+
+
+
+
+
+
+/* nuevos armeros card */
+.card-armero {
+  width: 320px;
+  max-width: 320px;
+}
+.card-armero .card-armero-a img {
+  width: 320px;
+  max-width: 320px;
+} 
+.text-card-producto {
+  width: 320px;
+}
+.card-armero-a-precio-btn {
+  background: #bfa754;  
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: .3em;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+.ul-caract-list {
+  align-content: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, auto); 
+  gap: .3em .7em;
+  justify-content: center; 
+  padding: 0;
+  margin: 0 auto;
+}
+.ul-caract-list li {
+  font-size: 15px !important;
+}
+.ul-caract-list li::before {
+    content: "· ";
+    font-weight: 700;
+}
+
+@media screen and (max-width:1200px) and (min-width:1023px){
+  .section-card-productos {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
 
 @media screen and (max-width:1023px){
   .section-products {

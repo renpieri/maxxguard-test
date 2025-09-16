@@ -142,6 +142,55 @@ const Pdp = () => {
             <p className="precio-producto-pdp"> ${producto.precio} </p>
           
 
+
+                {/* Footer */}
+            <div className="div-redes-pdp-bottom">
+              <hr className="mb-2 border-gray-300 sm:mx-auto lg:my-8 m-auto hr-pdp" />
+              <div className="footer-div w-full max-w-screen-xl mx-auto">
+                <h3 className="footer-h3 mb-4">Comunicate con nosotros ante cualquier duda o pedido</h3>
+                <div className="footer-img-redes">
+                  <ul className="ul-redes-footer flex flex-wrap items-center text-sm font-medium">
+                    <li>
+                      <a
+                        href="https://wa.me/541124903366"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <RiWhatsappFill className="pdp-wpp-img" />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.instagram.com/maxxguard.arg/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <RiInstagramFill className="pdp-inst-img" />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.facebook.com/p/Maxxguard-100039732237295/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FaSquareFacebook className="pdp-face-img" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="mailto:armerosmaxxguard@gmail.com">
+                        <MdEmail className="pdp-mailto-img" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
             <hr className="my-6 md:my-8 border-gray-200 dark:border-gray-800 hr-pdp-top" />
 
             <div className="div-descripcion-pdp">
@@ -174,10 +223,9 @@ const Pdp = () => {
             </div>
 
             <div className="div-redes-pdp-top">
-              <hr className="mb-2 border-gray-300 sm:mx-auto lg:my-8 m-auto hr-pdp" />
-              <div className="footer-div w-full max-w-screen-xl mx-auto">
+              <div className="div-comunicate-redes-pdp w-full max-w-screen-xl mx-auto">
                 <h3 className="footer-h3 mb-4">
-                  COMUNICATE CON NOSOTROS PARA PEDIRLO
+                  Comunicate con nosotros ante cualquier duda o pedido
                 </h3>
                 <div className="footer-img-redes">
                   <ul className="ul-redes-footer flex flex-wrap items-center text-sm font-medium">
@@ -327,49 +375,7 @@ const Pdp = () => {
         </div>
       )}
 
-      {/* Footer */}
-      <div className="div-redes-pdp-bottom">
-        <hr className="mb-2 border-gray-300 sm:mx-auto lg:my-8 m-auto hr-pdp" />
-        <div className="footer-div w-full max-w-screen-xl mx-auto">
-          <h3 className="footer-h3 mb-4">COMUNICATE CON NOSOTROS PARA PEDIRLO</h3>
-          <div className="footer-img-redes">
-            <ul className="ul-redes-footer flex flex-wrap items-center text-sm font-medium">
-              <li>
-                <a
-                  href="https://wa.me/541124903366"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <RiWhatsappFill className="pdp-wpp-img" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.instagram.com/maxxguard.arg/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <RiInstagramFill className="pdp-inst-img" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.facebook.com/p/Maxxguard-100039732237295/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaSquareFacebook className="pdp-face-img" />
-                </a>
-              </li>
-              <li>
-                <a href="mailto:armerosmaxxguard@gmail.com">
-                  <MdEmail className="pdp-mailto-img" />
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      
     </section>
   );
 };
