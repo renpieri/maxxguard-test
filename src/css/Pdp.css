@@ -66,12 +66,16 @@
     width: 30px;
 }
 
-.porducto-title-pdp {
-    font-size: 30px;
+.producto-title-pdp {
+    font-size: 45px;
     font-weight: 700;
     text-transform: uppercase;
+    margin: 0;
 }
-
+.precio-producto-pdp {
+    font-size: 28px;
+    font-weight: 500;
+}
 .info-detallada-general {
     font-size: 17px;
 }
@@ -91,7 +95,10 @@
     margin-bottom: 2em;
 }
 
-
+.hr-pdp-top {
+    margin-top: 1em !important;
+    margin-bottom: 1em !important;
+}
 .pdp-wpp-img { 
     width: 35px;
     height: 35px;

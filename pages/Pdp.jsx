@@ -136,9 +136,13 @@ const Pdp = () => {
 
           {/* Info producto */}
           <div className="w-full contenedor-info-pdp">
-            <h2 className="mb-2 porducto-title-pdp">{producto.name}</h2>
+         
+              
+            <h2 className="mb-2 producto-title-pdp">{producto.name}</h2>
+            <p className="precio-producto-pdp"> ${producto.precio} </p>
+          
 
-            <hr className="my-6 md:my-8 border-gray-200 dark:border-gray-800" />
+            <hr className="my-6 md:my-8 border-gray-200 dark:border-gray-800 hr-pdp-top" />
 
             <div className="div-descripcion-pdp">
               <h3 className="mb-2 title-descrition">Caracteristicas generales</h3>
@@ -158,6 +162,8 @@ const Pdp = () => {
                   </li>
                 ))}
               </ul>
+            </div>
+            <div>
             </div>
 
             <div className="envio-pdp-contenedor e-c-pdp-bot">
