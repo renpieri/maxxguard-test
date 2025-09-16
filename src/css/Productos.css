@@ -113,15 +113,15 @@
 
 /* nuevos armeros card */
 .card-armero {
-  width: 320px;
+  width: 320px !important;
   max-width: 320px;
 }
 .card-armero .card-armero-a img {
-  width: 320px;
+  width: 320px !important;
   max-width: 320px;
 } 
 .text-card-producto {
-  width: 320px;
+  width: 320px !important;
 }
 .card-armero-a-precio-btn {
   background: #bfa754;  
