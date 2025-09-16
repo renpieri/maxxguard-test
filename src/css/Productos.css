@@ -168,7 +168,7 @@
 
 @media screen and (max-width:767px) {
         .card-armero, .card-armero img {
-          width: 300px !important;
+          width: 320px !important;
           height: auto !important;
         }
         .flex-icon-title {
