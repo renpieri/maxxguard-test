@@ -71,7 +71,7 @@ const Pdp = () => {
   return (
     <section className="section-pdp">
       <div className="div-flecha">
-        <button className="mb-4 btn-atras-pdp" onClick={() => navigate(-1)}>
+        <button className="btn-atras-pdp" onClick={() => navigate(-1)}>
           <IoMdArrowBack className="flecha-atras" />
         </button>
       </div>
