@@ -207,7 +207,8 @@
     .title-descrition,
     .title-descrition-spec,
     .info-detallada-general ul li,
-    .footer-h3 {
+    .footer-h3,
+    .precio-producto-pdp {
         text-align: center;
     }
 
@@ -275,6 +276,7 @@
     .list-circle {
     list-style: none;
 }
+
 }
 
 
@@ -357,6 +359,9 @@
     }
     .title-descrition  {
         font-size: 18px !important;
+    }
+    .precio-producto-pdp {
+        font-size: 24px;
     }
 }
 
