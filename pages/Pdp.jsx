@@ -146,8 +146,8 @@ const Pdp = () => {
                 {/* Footer */}
             <div className="div-redes-pdp-bottom">
               <hr className="mb-2 border-gray-300 sm:mx-auto lg:my-8 m-auto hr-pdp" />
-              <div className="footer-div w-full max-w-screen-xl mx-auto">
-                <h3 className="footer-h3 mb-4">Comunicate con nosotros ante cualquier duda o pedido</h3>
+              <div className="footer-div div-pdp-redes w-full max-w-screen-xl mx-auto">
+                <h3 className="footer-h3 mb-4">Comunicate con nosotros para pedirlo</h3>
                 <div className="footer-img-redes">
                   <ul className="ul-redes-footer flex flex-wrap items-center text-sm font-medium">
                     <li>
@@ -225,7 +225,7 @@ const Pdp = () => {
             <div className="div-redes-pdp-top">
               <div className="div-comunicate-redes-pdp w-full max-w-screen-xl mx-auto">
                 <h3 className="footer-h3 mb-4">
-                  Comunicate con nosotros ante cualquier duda o pedido
+                  Comunicate con nosotros para pedirlo
                 </h3>
                 <div className="footer-img-redes">
                   <ul className="ul-redes-footer flex flex-wrap items-center text-sm font-medium">
