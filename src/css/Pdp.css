@@ -12,16 +12,16 @@
 }
 
 .contenedor-img-pdp {
-    max-width: 600px !important;
+    max-width: 500px !important;
 }
 
 .contenedor-info-pdp {
-    max-width: 600px !important;
+    max-width: 500px !important;
 }
 
 .img-principal-pdp {
-    width: 632px !important;
-    height: 700px !important;
+    /* width: 632px !important;
+    height: 700px !important; */
     border-radius: 5px;
 }
 
@@ -465,12 +465,12 @@
     }
 
     .contenedor-info-pdp {
-        max-width: 600px !important;
+        max-width: 500px !important;
     }
 
     .img-principal-pdp {
-        width: 632px !important;
-        height: 700px !important;
+        /* width: 632px !important;
+        height: 700px !important; */
     }
 }
 
