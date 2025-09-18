@@ -32,7 +32,7 @@
       ],
       "puerta": [
         "Espesor del acero: 1.5mm",
-        "Cerradura electrónica",
+        "Cerradura electrónica + llave de emergencia",
         "Manija de 3 radios",
         "4 pernos de seguridad de 20mm"
       ],
@@ -60,7 +60,7 @@
       "profundidad": "255mm",
       "peso": "31kg"
     },
-    "descripcion": "Este armero tiene capacidad máxima de 5 armas largas, incorporando además un compartimento adicional para municiones. Está fabricado en acero de bajo carbono de uso estructural con un espesor de 2mm en la puerta y en el cuerpo, ofreciendo un equilibrio entre solidez y peso. Está diseñado para brindar resistencia y seguridad. Cuenta con un sistema de cierre de 3 pernos de seguridad de 20mm de diámetro, accionados mediante una manija en forma de L que facilita la apertura y el cierre.",
+    "descripcion": "Este armero tiene capacidad máxima de 5 armas largas, incorporando además un compartimento adicional para municiones. Está fabricado en acero de bajo carbono de uso estructural con un espesor de 3mm en la puerta y 2mm en el cuerpo, ofreciendo un equilibrio entre solidez y peso. Está diseñado para brindar resistencia y seguridad. Cuenta con un sistema de cierre de 3 pernos de seguridad de 20mm de diámetro, accionados mediante una manija en forma de L que facilita la apertura y el cierre.",
     "img": [
       "M-1005/M-1005-1-color.png",
       "M-1005/M-1005-2-color.png",
@@ -82,8 +82,8 @@
         "Peso: 31kg"
       ],
       "puerta": [
-        "Espesor del acero: 2mm",
-        "Cerradura electrónica + llaves de emergencia",
+        "Espesor del acero: 3mm",
+        "Cerradura electrónica + llave de emergencia",
         "Manija en forma de “L”",
         "3 pernos de seguridad de 20mm de diámetro"
       ],
@@ -133,7 +133,7 @@
       ],
       "puerta": [
         "Espesor del acero: 2mm",
-        "Cerradura electrónica + llaves de emergencia",
+        "Cerradura electrónica + llave de emergencia",
         "Manija en forma de “L”",
         "Organizador en la puerta",
         "6 pernos de seguridad de 20mm"
@@ -187,7 +187,7 @@
       ],
       "puerta": [
         "Espesor del acero: 2mm",
-        "Cerradura electrónica + llaves de emergencia",
+        "Cerradura electrónica + llave de emergencia",
         "Manija en forma de “L”",
         "Organizador en la puerta",
         "6 pernos de seguridad de 20mm"
@@ -241,7 +241,7 @@
       ],
       "puerta": [
         "Espesor del acero: 2mm",
-        "Cerradura electrónica + llaves de emergencia",
+        "Cerradura electrónica + llave de emergencia",
         "Manija de 3 radios",
         "Organizador en la puerta",
         "8 pernos de seguridad de 25mm"
@@ -295,7 +295,7 @@
       ],
       "puerta": [
         "Espesor del acero: 2mm",
-        "Cerradura electrónica + llaves de emergencia",
+        "Cerradura electrónica + llave de emergencia",
         "Manija de 5 radios",
         "Organizador en la puerta",
         "10 pernos de seguridad de 25mm"
@@ -349,7 +349,7 @@
       ],
       "puerta": [
         "Espesor del acero: 2mm",
-        "Cerradura electrónica + llaves de emergencia",
+        "Cerradura electrónica + llave de emergencia",
         "Manija de 5 radios",
         "Organizador en la puerta",
         "14 pernos de seguridad de 25mm"
