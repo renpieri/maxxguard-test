@@ -146,7 +146,7 @@
   margin: 0 auto;
 }
 .ul-caract-list li {
-  font-size: 15px !important;
+  font-size: 14px !important;
 }
 .ul-caract-list li::before {
     content: "· ";
