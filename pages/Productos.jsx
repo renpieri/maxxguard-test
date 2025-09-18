@@ -40,7 +40,7 @@ const Productos = () => {
                         ))}
                       </ul>
                     </div>
-                        <Link to={`/producto/${producto.id}`} className='card-armero-a-precio-btn'>Ver precio</Link>
+                        <Link to={`/producto/${producto.id}`} className='card-armero-a-precio-btn'>Ver más</Link>
                   </div>
                 </Link>
               </div>

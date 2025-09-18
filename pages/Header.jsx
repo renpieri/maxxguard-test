@@ -40,15 +40,15 @@ const Header = () => {
                 <li className='menu-li mx-3'><a className='menu-a block p-3 lg:p-0' href="/#quienesomosId" onClick={() => setOpen(!open)}>Quienes somos</a></li> 
                 <li className='menu-li menu-li-last mx-3'><a className='menu-a block p-3 lg:p-0' href="/#contactoId" onClick={() => setOpen(!open)}>Contacto</a></li> 
                 <li className='menu-li top-header-img-tel-a mx-3 menu-mobile-burger-li'>
-                  <a className='menu-a block lg:p-0' href="#contactoId" onClick={() => setOpen(!open)}>
+                  <a className='menu-a block lg:p-0' href="https://wa.me/541124903366" target='_blank' onClick={() => setOpen(!open)}>
                     <div className='menu-mobile-burger-li-div'>
-                      <RiWhatsappFill className='wpp-img icon-img-burger'/>
-                      <p>1124903366</p>
+                        <RiWhatsappFill className='wpp-img icon-img-burger'/>
+                        <p>1124903366</p>
                     </div>
                   </a>
                 </li> 
                 <li className='menu-li top-header-img-tel-a mx-3 menu-mobile-burger-li'>
-                  <a className='menu-a block lg:p-0' href="#contactoId" onClick={() => setOpen(!open)}>
+                  <a className='menu-a block lg:p-0' target='_blank' href="https://www.instagram.com/maxxguard.arg/" onClick={() => setOpen(!open)}>
                     <div className='menu-mobile-burger-li-div'>
                       <RiInstagramFill className='inst-img icon-img-burger'/>
                       <p>@maxxguard</p>
