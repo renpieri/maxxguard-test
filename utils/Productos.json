@@ -1,16 +1,15 @@
 [
-
   {
     "id": 1,
     "name": "M-1012",
     "precio": "770.000",
     "medidas": {
-      "alto": "50cm",
-      "ancho": "35cm",
-      "profundidad": "35cm",
+      "alto": "510mm",
+      "ancho": "360mm",
+      "profundidad": "360mm",
       "peso": "25kg"
     },
-    "descripcion": "Armero para armas cortas. Fabricado en acero de bajo carbono de uso estructural, este armero está diseñada para ofrecer resistencia, seguridad y protección contra el fuego. Cuenta con un sistema de cierre de 4 pernos de seguridad de 20mm de diámetro, accionados mediante una manija de 3 radios, que permite un manejo fácil y seguro. La estructura presenta un espesor de 2mm en la puerta y cuerpo, brindando un equilibrio entre robustez y peso. Incluye una estantería ajustable y removible, que permite organizar de manera flexible el contenido. Está equipada con cerradura electrónica y ofrece protección contra el fuego durante 30 minutos a 650°C.",
+    "descripcion": "Armero para armas cortas. Fabricado en acero de bajo carbono de uso estructural, este armero está diseñado para ofrecer resistencia, seguridad y protección contra el fuego. Cuenta con un sistema de cierre de 4 pernos de seguridad de 20mm de diámetro, accionados mediante una manija de 3 radios, que permite un manejo fácil y seguro. La estructura presenta un espesor de 1.5mm en la puerta y cuerpo, brindando un equilibrio entre robustez y peso. Incluye una estantería ajustable y removible, que permite organizar de manera flexible el contenido. Está equipado con cerradura electrónica y ofrece protección contra el fuego durante 30 minutos a 650°C.",
     "img": [
       "M-1012/M-1012-1-color.png",
       "M-1012/M-1012-2-color.png",
@@ -23,34 +22,32 @@
       "Para Armas Cortas",
       "Peso: 25kg",
       "Cerradura Electrónica",
-      "50cmx35cm"
+      "510x360mm"
     ],
-    "generales":
-      {
-        "especificaciones": [
-          "Fabricado para armas cortas",
-          "Alto: 50cm - Ancho: 35cm - Profundidad: 35cm",
-          "Peso: 25kg"
-        ],
-        "puerta": [
-          "Espesor del acero: 2mm",
-          "Cerradura electrónica",
-          "Manija de 3 radios",
-          "4 pernos de seguridad de 20mm"
-        ],
-        "cuerpo": [
-          "Espesor del acero: 2mm",
-          "1 estantería ajustable"
-        ],
-        "fuego": [
-          "30 minutos 650°C",
-          "Sellado contra humo frío"
-        ],
-        "exterior": [
-          "Color negro"
-        ]
-      }
-    
+    "generales": {
+      "especificaciones": [
+        "Fabricado para armas cortas",
+        "Alto: 510mm - Ancho: 360mm - Profundidad: 360mm",
+        "Peso: 25kg"
+      ],
+      "puerta": [
+        "Espesor del acero: 1.5mm",
+        "Cerradura electrónica",
+        "Manija de 3 radios",
+        "4 pernos de seguridad de 20mm"
+      ],
+      "cuerpo": [
+        "Espesor del acero: 1.5mm",
+        "1 estantería ajustable"
+      ],
+      "fuego": [
+        "30 minutos 650°C",
+        "Sellado contra humo frío"
+      ],
+      "exterior": [
+        "Color negro"
+      ]
+    }
   },
 
   {
@@ -58,13 +55,13 @@
     "name": "M-1005",
     "precio": "770.000",
     "medidas": {
-      "alto": "145cm",
-      "ancho": "30cm",
-      "profundidad": "30cm",
+      "alto": "1400mm",
+      "ancho": "330mm",
+      "profundidad": "255mm",
       "peso": "31kg"
     },
-    "descripcion": "Este armero tiene capacidad máxima de 5 armas largas, incorporando además un compartimento adicional para municiones. Esta fabricado en acero de bajo carbono de uso estructural. Esta diseñado para brindar resistencia y seguridad. Cuenta con un sistema de cierre de 3 pernos de seguridad de 20 mm de diámetro, accionados mediante una manija en forma de L que facilita la apertura y el cierre. La estructura presenta un espesor de 2,5 mm en la puerta y en el cuerpo, ofreciendo un equilibrio entre solidez y peso.",
-      "img": [
+    "descripcion": "Este armero tiene capacidad máxima de 5 armas largas, incorporando además un compartimento adicional para municiones. Está fabricado en acero de bajo carbono de uso estructural con un espesor de 2mm en la puerta y en el cuerpo, ofreciendo un equilibrio entre solidez y peso. Está diseñado para brindar resistencia y seguridad. Cuenta con un sistema de cierre de 3 pernos de seguridad de 20mm de diámetro, accionados mediante una manija en forma de L que facilita la apertura y el cierre.",
+    "img": [
       "M-1005/M-1005-1-color.png",
       "M-1005/M-1005-2-color.png",
       "M-1005/M-1005-3-color.png",
@@ -76,33 +73,31 @@
       "5 Armas Largas",
       "Peso: 31kg",
       "Cerradura Electrónica",
-      "145cmx30cm"
+      "1400x330mm"
     ],
-    "generales":
-      {
-        "especificaciones": [
-          "Capacidad para 5 armas largas",
-          "Alto: 145cm - Ancho: 30cm - Profundidad: 30cm",
-          "Peso: 31kg"
-        ],
-        "puerta": [
-          "Espesor del acero: 2mm",
-          "Cerradura electrónica + llaves de emergencia",
-          "Manija en forma de “L”",
-          "3 pernos de seguridad"
-        ],
-        "cuerpo": [
-          "Espesor del acero: 2mm",
-          "Capacidad para 5 armas largas",
-          "Caja de municiones interna",
-          "Interior alfombrado"
-        ],
-        "fuego": false,
-        "exterior": [
-          "Color negro"
-        ]
-      }
-    
+    "generales": {
+      "especificaciones": [
+        "Capacidad para 5 armas largas",
+        "Alto: 1400mm - Ancho: 330mm - Profundidad: 255mm",
+        "Peso: 31kg"
+      ],
+      "puerta": [
+        "Espesor del acero: 2mm",
+        "Cerradura electrónica + llaves de emergencia",
+        "Manija en forma de “L”",
+        "3 pernos de seguridad de 20mm de diámetro"
+      ],
+      "cuerpo": [
+        "Espesor del acero: 2mm",
+        "Capacidad para 5 armas largas",
+        "Caja de municiones interna",
+        "Interior alfombrado"
+      ],
+      "fuego": false,
+      "exterior": [
+        "Color negro"
+      ]
+    }
   },
 
   {
@@ -110,12 +105,12 @@
     "name": "M-1014",
     "precio": "1.815.000",
     "medidas": {
-      "alto": "140cm",
-      "ancho": "51cm",
-      "profundidad": "43cm",
+      "alto": "1400mm",
+      "ancho": "510mm",
+      "profundidad": "430mm",
       "peso": "80kg"
     },
-    "descripcion": "Este armero tiene capacidad máxima para 14 armas largas, complementado con un kit organizador con bolsillos en la puerta para accesorios adicionales y con protección contra el fuego. Fabricado en acero de bajo carbono de uso estructural, está diseñado para ofrecer resistencia, seguridad y protección contra el fuego. Cuenta con un sistema de cierre de 6 pernos de seguridad de 20mm de diámetro, accionados mediante una manija en forma de L para un manejo fácil y seguro. La estructura presenta un espesor de 2mm tanto en la puerta como en el cuerpo, proporcionando un equilibrio entre solidez y peso. Incluye 2 estanterías removibles y ajustables, que permiten organizar el contenido de manera flexible. Está equipada con cerradura electrónica y llaves de emergencia, y ofrece protección contra el fuego durante 30 minutos a 650°C.",
+    "descripcion": "Este armero tiene capacidad máxima para 14 armas largas, complementado con un kit organizador con bolsillos en la puerta para accesorios adicionales y con protección contra el fuego. Fabricado en acero de bajo carbono de uso estructural, está diseñado para ofrecer resistencia, seguridad y protección contra el fuego. Cuenta con un sistema de cierre de 6 pernos de seguridad de 20mm de diámetro, accionados mediante una manija en forma de L para un manejo fácil y seguro. La estructura presenta un espesor de 2mm tanto en la puerta como en el cuerpo, proporcionando un equilibrio entre solidez y peso. Incluye 2 estanterías removibles y ajustables, que permiten organizar el contenido de manera flexible. Está equipado con cerradura electrónica y llaves de emergencia, y ofrece protección contra el fuego durante 30 minutos a 650°C.",
     "img": [
       "M-1014/M-1014-1-color.png",
       "M-1014/M-1014-2-color.png",
@@ -128,49 +123,48 @@
       "14 Armas Largas",
       "Peso: 80kg",
       "Cerradura Electrónica",
-      "140cmx51cm"
+      "1400x510mm"
     ],
-    "generales":
-      {
-        "especificaciones": [
-          "Capacidad para 14 armas largas",
-          "Alto: 140cm - Ancho: 51cm - Profundidad: 43cm",
-          "Peso: 80kg"
-        ],
-        "puerta": [
-          "Espesor del acero: 2mm",
-          "Cerradura electrónica + llaves de emergencia",
-          "Manija en forma de “L”",
-          "Organizador en la puerta",
-          "6 pernos de seguridad de 20mm"
-        ],
-        "cuerpo": [
-          "Espesor del acero: 2mm",
-          "Rack para 14 armas largas",
-          "2 estanterías ajustables",
-          "Interior alfombrado"
-        ],
-        "fuego": [
-          "30 minutos 650°C",
-          "Sellado contra humo frío"
-        ],
-        "exterior": [
-          "Color negro"
-        ]
-      }
-    
+    "generales": {
+      "especificaciones": [
+        "Capacidad para 14 armas largas",
+        "Alto: 1400mm - Ancho: 510mm - Profundidad: 430mm",
+        "Peso: 80kg"
+      ],
+      "puerta": [
+        "Espesor del acero: 2mm",
+        "Cerradura electrónica + llaves de emergencia",
+        "Manija en forma de “L”",
+        "Organizador en la puerta",
+        "6 pernos de seguridad de 20mm"
+      ],
+      "cuerpo": [
+        "Espesor del acero: 2mm",
+        "Rack para 14 armas largas",
+        "2 estanterías ajustables",
+        "Interior alfombrado"
+      ],
+      "fuego": [
+        "30 minutos 650°C",
+        "Sellado contra humo frío"
+      ],
+      "exterior": [
+        "Color negro"
+      ]
+    }
   },
+
   {
     "id": 4,
     "name": "M-1014CE",
     "precio": "1.952.500",
     "medidas": {
-      "alto": "140cm",
-      "ancho": "51cm",
-      "profundidad": "43cm",
+      "alto": "1400mm",
+      "ancho": "510mm",
+      "profundidad": "430mm",
       "peso": "80kg"
     },
-    "descripcion": "Este armero tiene capacidad máxima para 4 armas largas, similar al 1014 en dimensiones pero con estantes en su interior, complementado con un kit organizador con bolsillos en la puerta para accesorios adicionales y con protección contra el fuego. Fabricado en acero de bajo carbono de uso estructural, está diseñado para ofrecer resistencia, seguridad y protección contra el fuego. Cuenta con un sistema de cierre de 6 pernos de seguridad de 20mm de diámetro, accionados mediante una manija en forma de L para un manejo fácil y seguro. La estructura presenta un espesor de 2mm tanto en la puerta como en el cuerpo, proporcionando un equilibrio entre solidez y peso. Incluye 2 estanterías removibles y ajustables, que permiten organizar el contenido de manera flexible. Está equipada con cerradura electrónica y llaves de emergencia, y ofrece protección contra el fuego durante 30 minutos a 650°C.",
+    "descripcion": "Este armero tiene capacidad máxima para 4 armas largas, similar al 1014 en dimensiones pero con estanterías fijas de 3 niveles en su interior, complementado con un kit organizador con bolsillos en la puerta para accesorios adicionales y con protección contra el fuego. Fabricado en acero de bajo carbono de uso estructural, está diseñado para ofrecer resistencia, seguridad y protección contra el fuego. Cuenta con un sistema de cierre de 6 pernos de seguridad de 20mm de diámetro, accionados mediante una manija en forma de L para un manejo fácil y seguro. La estructura presenta un espesor de 2mm tanto en la puerta como en el cuerpo, proporcionando un equilibrio entre solidez y peso. Incluye 3 estanterías. Está equipado con cerradura electrónica y llaves de emergencia, y ofrece protección contra el fuego durante 30 minutos a 650°C.",
     "img": [
       "M-1014CE/M-1014CE-1-color.png",
       "M-1014CE/M-1014CE-2-color.png",
@@ -183,37 +177,35 @@
       "4 Armas Largas + Estantes",
       "Peso: 80kg",
       "Cerradura Electrónica",
-      "140cmx51cm"
+      "1400x510mm"
     ],
-    "generales":
-      {
-        "especificaciones": [
-          "Capacidad para 4 armas largas + estantes",
-          "Alto: 140cm - Ancho: 51cm - Profundidad: 43cm",
-          "Peso: 80 kg"
-        ],
-        "puerta": [
-          "Espesor del acero: 2mm",
-          "Cerradura electrónica + llaves de emergencia",
-          "Manija en forma de “L”",
-          "Organizador en la puerta",
-          "6 pernos de seguridad de 20mm"
-        ],
-        "cuerpo": [
-          "Espesor del acero: 2mm",
-          "Rack para 4 armas largas con estantes",
-          "2 estanterías ajustables",
-          "Interior alfombrado"
-        ],
-        "fuego": [
-          "30 minutos 650°C",
-          "Sellado contra humo frío"
-        ],
-        "exterior": [
-          "Color negro"
-        ]
-      }
-    
+    "generales": {
+      "especificaciones": [
+        "Capacidad para 4 armas largas + estantes",
+        "Alto: 1400mm - Ancho: 510mm - Profundidad: 430mm",
+        "Peso: 80kg"
+      ],
+      "puerta": [
+        "Espesor del acero: 2mm",
+        "Cerradura electrónica + llaves de emergencia",
+        "Manija en forma de “L”",
+        "Organizador en la puerta",
+        "6 pernos de seguridad de 20mm"
+      ],
+      "cuerpo": [
+        "Espesor del acero: 2mm",
+        "Rack para 4 armas largas con estantes fijos de 3 niveles",
+        "3 estanterías fijas",
+        "Interior alfombrado"
+      ],
+      "fuego": [
+        "30 minutos 650°C",
+        "Sellado contra humo frío"
+      ],
+      "exterior": [
+        "Color negro"
+      ]
+    }
   },
 
   {
@@ -221,12 +213,12 @@
     "name": "M-1022",
     "precio": "3.135.000",
     "medidas": {
-      "alto": "150cm",
-      "ancho": "66cm",
-      "profundidad": "50cm",
+      "alto": "1500mm",
+      "ancho": "660mm",
+      "profundidad": "500mm",
       "peso": "150kg"
     },
-    "descripcion": "Armero con capacidad máxima para 22 armas largas, complementada con un kit organizador con bolsillos en la puerta para accesorios adicionales y protección contra el fuego. Esta fabricado en acero de bajo carbono de uso estructural, está diseñado para ofrecer resistencia, seguridad y protección contra el fuego. Cuenta con un sistema de cierre de 10 pernos de seguridad de 25mm de diámetro, accionados mediante una manija de 3 radios, que facilita un manejo seguro y cómodo. La estructura presenta un espesor de 2mm tanto en la puerta como en el cuerpo, brindando un equilibrio entre robustez y peso. Incluye 3 estanterías removibles y ajustables, que permiten organizar el contenido de manera flexible.Está equipada con cerradura electrónica y llaves de emergencia, y ofrece protección contra el fuego durante 30 minutos a 650°C.",
+    "descripcion": "Armero con capacidad máxima para 22 armas largas, complementada con un kit organizador con bolsillos en la puerta para accesorios adicionales y protección contra el fuego. Está fabricado en acero de bajo carbono de uso estructural, y diseñado para ofrecer resistencia, seguridad y protección contra el fuego. Cuenta con un sistema de cierre de 8 pernos de seguridad de 25mm de diámetro, accionados mediante una manija de 3 radios, que facilita un manejo seguro y cómodo. La estructura presenta un espesor de 2mm tanto en la puerta como en el cuerpo, brindando un equilibrio entre robustez y peso. Incluye 3 estanterías removibles y ajustables, que permiten organizar el contenido de manera flexible. Está equipado con cerradura electrónica y llaves de emergencia, y ofrece protección contra el fuego durante 30 minutos a 650°C.",
     "img": [
       "M-1022/M-1022-1-color.png",
       "M-1022/M-1022-2-color.png",
@@ -239,47 +231,45 @@
       "22 Armas Largas",
       "Peso: 150kg",
       "Cerradura Electrónica",
-      "150cmx66cm"
+      "1500x660mm"
     ],
-    "generales":
-      {
-        "especificaciones": [
-          "Capacidad para 22 armas largas",
-          "Alto 150cm - Ancho 66cm - Profundidad 50cm",
-          "Peso: 150kg"
-        ],
-        "puerta": [
-          "Espesor del acero: 2mm",
-          "Cerradura electrónica + llaves de emergencia",
-          "Manija de 3 radios",
-          "Organizador en la puerta",
-          "10 pernos de seguridad de 25mm"
-        ],
-        "cuerpo": [
-          "Espesor del acero: 2mm",
-          "Rack para 22 armas largas",
-          "3 estanterías ajustables",
-          "Interior alfombrado"
-        ],
-        "fuego": [
-          "30 minutos 650°C",
-          "Sellado contra humo frío"
-        ],
-        "exterior": [
-          "Color negro"
-        ]
-      }
-    
+    "generales": {
+      "especificaciones": [
+        "Capacidad para 22 armas largas",
+        "Alto: 1500mm - Ancho: 660mm - Profundidad: 500mm",
+        "Peso: 150kg"
+      ],
+      "puerta": [
+        "Espesor del acero: 2mm",
+        "Cerradura electrónica + llaves de emergencia",
+        "Manija de 3 radios",
+        "Organizador en la puerta",
+        "8 pernos de seguridad de 25mm"
+      ],
+      "cuerpo": [
+        "Espesor del acero: 2mm",
+        "Rack para 22 armas largas",
+        "3 estanterías ajustables",
+        "Interior alfombrado"
+      ],
+      "fuego": [
+        "30 minutos 650°C",
+        "Sellado contra humo frío"
+      ],
+      "exterior": [
+        "Color negro"
+      ]
+    }
   },
-  
+
   {
     "id": 6,
     "name": "M-1040",
     "precio": "5.830.000",
     "medidas": {
-      "alto": "150cm",
-      "ancho": "100cm",
-      "profundidad": "56cm",
+      "alto": "1500mm",
+      "ancho": "1000mm",
+      "profundidad": "560mm",
       "peso": "226kg"
     },
     "descripcion": "Armero con capacidad máxima para 40 armas largas, complementada con un kit organizador con bolsillos en la puerta para accesorios adicionales y con protección contra el fuego. Fabricado en acero de bajo carbono de uso estructural, este armero está diseñado para ofrecer resistencia, seguridad y protección contra el fuego. Cuenta con un sistema de cierre de 10 pernos de seguridad de 25mm de diámetro, accionados mediante una manija de 5 radios, que facilita un manejo seguro y cómodo. La estructura presenta un espesor de 2mm tanto en la puerta como en el cuerpo, proporcionando un equilibrio entre robustez y peso. Incluye 3 estanterías removibles y ajustables, que permiten organizar el contenido de manera flexible. Está equipado con cerradura electrónica y llaves de emergencia, y ofrece protección contra el fuego durante 30 minutos a 650°C.",
@@ -295,50 +285,48 @@
       "40 Armas Largas",
       "Peso: 226kg",
       "Cerradura Electrónica",
-      "150cmx100cm"
+      "1500x1000mm"
     ],
-    "generales":
-      {
-        "especificaciones": [
-          "Capacidad máxima para 40 armas largas",
-          "Alto: 150cm - Ancho: 100cm - Profundidad: 56cm",
-          "Peso: 226kg"
-        ],
-        "puerta": [
-          "Espesor del acero: 2mm",
-          "Cerradura electrónica + llaves de emergencia",
-          "Manija de 3 radios",
-          "Organizador en la puerta",
-          "10 pernos de seguridad de 25mm"
-        ],
-        "cuerpo": [
-          "Espesor del acero: 2mm",
-          "Rack para 40 armas largas",
-          "3 estanterías ajustables",
-          "Interior alfombrado"
-        ],
-        "fuego": [
-          "30 minutos 650°C",
-          "Sellado contra humo frío"
-        ],
-        "exterior": [
-          "Color negro"
-        ]
-      }
-    
+    "generales": {
+      "especificaciones": [
+        "Capacidad máxima para 40 armas largas",
+        "Alto: 1500mm - Ancho: 1000mm - Profundidad: 560mm",
+        "Peso: 226kg"
+      ],
+      "puerta": [
+        "Espesor del acero: 2mm",
+        "Cerradura electrónica + llaves de emergencia",
+        "Manija de 5 radios",
+        "Organizador en la puerta",
+        "10 pernos de seguridad de 25mm"
+      ],
+      "cuerpo": [
+        "Espesor del acero: 2mm",
+        "Rack para 40 armas largas",
+        "3 estanterías ajustables",
+        "Interior alfombrado"
+      ],
+      "fuego": [
+        "30 minutos 650°C",
+        "Sellado contra humo frío"
+      ],
+      "exterior": [
+        "Color negro"
+      ]
+    }
   },
-  
+
   {
     "id": 7,
     "name": "M-1056",
     "precio": "6.930.000",
     "medidas": {
-      "alto": "180cm",
-      "ancho": "107cm",
-      "profundidad": "61cm",
+      "alto": "1800mm",
+      "ancho": "1070mm",
+      "profundidad": "610mm",
       "peso": "280kg"
     },
-    "descripcion": "Armero con capacidad máxima para 56 armas largas y 8 armas cortas, complementada con un kit organizador con bolsillos en la puerta para accesorios adicionales. Fabricado en acero de bajo carbono de uso estructural, este armero está diseñado para ofrecer resistencia, seguridad y protección contra el fuego. Cuenta con un sistema de cierre de 14 pernos de seguridad de 25mm de diámetro, accionados mediante una manija de 5 radios, que facilita un manejo seguro y cómodo. La estructura presenta un espesor de 1,5 mm tanto en la puerta como en el cuerpo, proporcionando un equilibrio entre robustez y peso. Incluye 6 estanterías removibles y ajustables, que permiten organizar el contenido de manera flexible Está equipado con cerradura electrónica y llaves de emergencia, y ofrece protección contra el fuego durante 30 minutos a 650°C.",
+    "descripcion": "Armero con capacidad máxima para 56 armas largas y 8 armas cortas, complementada con un kit organizador con bolsillos en la puerta para accesorios adicionales. Fabricado en acero de bajo carbono de uso estructural, este armero está diseñado para ofrecer resistencia, seguridad y protección contra el fuego. Cuenta con un sistema de cierre de 14 pernos de seguridad de 25mm de diámetro, accionados mediante una manija de 5 radios, que facilita un manejo seguro y cómodo. La estructura presenta un espesor de 2mm tanto en la puerta como en el cuerpo, proporcionando un equilibrio entre robustez y peso. Incluye 6 estanterías removibles y ajustables, que permiten organizar el contenido de manera flexible. Está equipado con cerradura electrónica y llaves de emergencia, y ofrece protección contra el fuego durante 30 minutos a 650°C.",
     "img": [
       "M-1056/M-1056-2-color.png",
       "M-1056/M-1056-3-color.png",
@@ -351,12 +339,12 @@
       "56 Armas Largas",
       "Peso: 280kg",
       "Cerradura Electrónica",
-      "180cmx107cm"
+      "1800x1070mm"
     ],
     "generales": {
       "especificaciones": [
         "Capacidad para 56 armas largas y 8 armas cortas",
-        "Alto: 180cm - Ancho: 107cm - Profundidad: 61cm",
+        "Alto: 1800mm - Ancho: 1070mm - Profundidad: 610mm",
         "Peso: 280kg"
       ],
       "puerta": [
